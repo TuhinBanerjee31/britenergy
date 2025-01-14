@@ -1,21 +1,18 @@
 import './App.css'
-import CustomHeader from './components/CustomHeader'
-import EffectArea from './components/EffectArea'
-import Footer from './components/Footer'
-import OtherInfo from './components/OtherInfo'
-import Overview from './components/Overview'
-import SliderArea from './components/SliderArea'
+import {Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import OurWork from './pages/OurWork';
 
 function App() {
 
   return (
     <>
-    <CustomHeader />
-    <Overview />
-    <EffectArea />
-    <OtherInfo />
-    <SliderArea />
-    <Footer />
+    <Routes>
+    <Route path='/' element={<Home />}/>
+    <Route path='/about' element={<About />}/>
+    <Route path='/our-work' element={<OurWork />}/>
+    </Routes>
     </>
   )
 }

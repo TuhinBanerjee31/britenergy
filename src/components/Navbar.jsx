@@ -1,35 +1,36 @@
 import React, { useState } from "react";
 import "./buttonStyle.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [aboutStatus, setAboutStatus] = useState(false);
 
   return (
     <div
-      className={`font-roboto-condensed min-h-[60vh] ${false ? "bg-[#FFFFFF] text-black" : "bg-transparent text-white"} transition ease-in-out delay-100 duration-500`}
+      className={`font-roboto-condensed min-h-[40vh] md:min-h-[60vh] ${false ? "bg-[#FFFFFF] text-black" : "bg-transparent text-white"} transition ease-in-out delay-100 duration-500`}
       onMouseLeave={() => setAboutStatus(false)}
     >
-      <div className="max-w-screen-2xl flex flex-col items-center mx-auto px-10 pt-3 pb-3">
+      <div className="max-w-screen-2xl flex flex-col items-center mx-auto px-2 md:px-10 pt-3 pb-3">
         <h5 className="text-xs self-end px-2 py-2">CRAFT RESOURCES</h5>
         <div className="w-[100%] border-b border-[#EBEBEA]"></div>
         <div className="flex justify-between items-center w-full px-2 py-4">
-          <h1>Britenergy</h1>
+          <NavLink to={'/'}>Britenergy</NavLink>
 
           <div className="flex gap-4">
-            <h3
-              className="cursor-pointer text-lg"
+            <NavLink to={"/about"}
+              className="cursor-pointer text-xs md:text-lg"
               onMouseEnter={() => setAboutStatus(true)}
             >
               About
-            </h3>
-            <h3 className="cursor-pointer text-lg">Our Work</h3>
-            <h3 className="cursor-pointer text-lg">Our Founders</h3>
+            </NavLink>
+            <NavLink to={"/our-work"} className="cursor-pointer text-xs md:text-lg">Our Work</NavLink>
+            <NavLink to={"/our-founders"} className="cursor-pointer text-xs md:text-lg">Our Founders</NavLink>
             {/* <h3 className="cursor-pointer">Offices</h3>
             <h3 className="cursor-pointer">Insights</h3>
             <h3 className="cursor-pointer">Careers</h3> */}
           </div>
 
-          <button className="button-80">Contact</button>
+          <NavLink to={"/contact"} className="button-80">Contact</NavLink>
         </div>
       </div>
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Glide from "@glidejs/glide";
 import image1 from "../assets/SliderAreaImages/image1.jpg";
 
@@ -78,10 +78,10 @@ const SliderArea = () => {
 
   return (
     <div className="font-roboto-condensed min-h-screen bg-[#EBEBEB]">
-      <div className="h-full w-full flex flex-col justify-center items-center p-5 pt-20">
-        <h1 className="font-norma text-7xl">Solving Problems</h1>
-        <h3 className="font-light text-7xl">Before They Happen</h3>
-        <p className="font-light text-2xl max-w-screen-sm tracking-wider text-center py-5">
+      <div className="h-full w-full flex flex-col justify-center items-center p-5 md:py-20">
+        <h1 className="font-norma text-5xl md:text-7xl">Solving Problems</h1>
+        <h3 className="font-light text-5xl md:text-7xl">Before They Happen</h3>
+        <p className="font-light text-xl md:text-2xl max-w-screen-sm tracking-wider text-center py-5">
           We combine expertise, process innovation and technology into services
           that proactively identify and address challenges — saving time and
           money on every project.
