@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./buttonStyle.css";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/kpngLogo.png"
 
 const Navbar = () => {
   const [aboutStatus, setAboutStatus] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div
@@ -14,7 +19,9 @@ const Navbar = () => {
         <h5 className="text-xs self-end px-2 py-2">CRAFT RESOURCES</h5>
         <div className="w-[100%] border-b border-[#EBEBEA]"></div>
         <div className="flex justify-between items-center w-full px-2 py-4">
-          <NavLink to={'/'}>Britenergy</NavLink>
+          <NavLink to={'/'}>
+          <img src={logo} className="w-16 md:w-32" />
+            </NavLink>
 
           <div className="flex gap-4">
             <NavLink to={"/about"}
@@ -24,7 +31,7 @@ const Navbar = () => {
               About
             </NavLink>
             <NavLink to={"/our-work"} className="cursor-pointer text-xs md:text-lg">Our Work</NavLink>
-            <NavLink to={"/our-founders"} className="cursor-pointer text-xs md:text-lg">Our Founders</NavLink>
+            <NavLink to={"/our-team"} className="cursor-pointer text-xs md:text-lg">Our Team</NavLink>
             {/* <h3 className="cursor-pointer">Offices</h3>
             <h3 className="cursor-pointer">Insights</h3>
             <h3 className="cursor-pointer">Careers</h3> */}

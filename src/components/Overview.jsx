@@ -32,7 +32,7 @@ const Overview = () => {
             </p>
             <div className="py-4">
               <button className="button-48 py-10">
-                <span className="text-base">ABOUT BRITENERGY</span>
+                <span className="text-base">ABOUT KPNG</span>
               </button>
             </div>
           </div>
@@ -40,18 +40,50 @@ const Overview = () => {
           {/* Image Grid */}
           <div className="grid grid-cols-3 gap-4">
             {/* Row 1 */}
-            <LazyImage src={image1} alt="Construction worker" className="col-span-1" />
-            <LazyImage src={image2} alt="Person in red attire" className="col-span-1" />
-            <LazyImage src={image6} alt="Person in red attire" className="col-span-1" />
+            <LazyImage
+              src={image1}
+              alt="Construction worker"
+              className="col-span-1"
+            />
+            <LazyImage
+              src={image2}
+              alt="Person in red attire"
+              className="col-span-1"
+            />
+            <LazyImage
+              src={image6}
+              alt="Person in red attire"
+              className="col-span-1"
+            />
 
             {/* Row 2 */}
-            <LazyImage src={image3} alt="Building exterior" className="col-span-2" />
+            <LazyImage
+              src={image3}
+              alt="Building exterior"
+              className="col-span-2"
+            />
 
             {/* Row 3 */}
-            <LazyImage src={image4} alt="Dock construction" className="col-span-1" />
-            <LazyImage src={image5} alt="Person presenting" className="col-span-1" />
-            <LazyImage src={image7} alt="Person presenting" className="col-span-1" />
-            <LazyImage src={image8} alt="Person presenting" className="col-span-1" />
+            <LazyImage
+              src={image4}
+              alt="Dock construction"
+              className="col-span-1"
+            />
+            <LazyImage
+              src={image5}
+              alt="Person presenting"
+              className="col-span-1"
+            />
+            <LazyImage
+              src={image7}
+              alt="Person presenting"
+              className="col-span-1"
+            />
+            <LazyImage
+              src={image8}
+              alt="Person presenting"
+              className="col-span-1"
+            />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import React from "react";
+import logo from "../assets/kpngLogo.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,16 +7,13 @@ const Footer = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-col gap-10">
-            <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <Link to={"/"} className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
               <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8"
-                alt="Flowbite Logo"
+                src={logo}
+                className="w-32"
+                alt="kpng Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Britenergy
-              </span>
-            </div>
+            </Link>
 
             <div className="flex gap-4">
               <a
@@ -81,7 +79,7 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          ©2025 Britenergy, Inc. All Rights Reserved.
+          ©2025 Knagz Power and Network-Infrastructure Group. All Rights Reserved.
         </span>
       </div>
     </footer>
