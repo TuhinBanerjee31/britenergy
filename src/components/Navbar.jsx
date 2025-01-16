@@ -16,7 +16,7 @@ const Navbar = () => {
       onMouseLeave={() => setAboutStatus(false)}
     >
       <div className="max-w-screen-2xl flex flex-col items-center mx-auto px-2 md:px-10 pt-3 pb-3">
-        <h5 className="text-xs self-end px-2 py-2">CRAFT RESOURCES</h5>
+        <h5 className="text-xs self-end px-2 py-2">RECOGNITION</h5>
         <div className="w-[100%] border-b border-[#EBEBEA]"></div>
         <div className="flex justify-between items-center w-full px-2 py-4">
           <NavLink to={'/'}>
