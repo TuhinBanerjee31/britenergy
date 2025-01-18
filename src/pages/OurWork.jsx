@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomHeader from '../components/CustomHeader'
 import AllProjects from '../components/AllProjects'
 import Footer from '../components/Footer'
