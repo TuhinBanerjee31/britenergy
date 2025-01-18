@@ -5,6 +5,9 @@ import image2 from "../assets/aboutImages/image2.jpg";
 import image3 from "../assets/aboutImages/image3.jpg";
 import image4 from "../assets/aboutImages/image4.jpg";
 import image5 from "../assets/aboutImages/image5.jpg";
+import image6 from "../assets/aboutImages/image6.jpg";
+import image7 from "../assets/aboutImages/image7.jpg";
+import image8 from "../assets/aboutImages/image8.jpg";
 import image11 from "../assets/SliderAreaImages/image1.jpg";
 
 const About = () => {
@@ -45,21 +48,40 @@ const About = () => {
           }}
         >
           <h3 className="font-light text-5xl md:text-7xl text-center uppercase">
-            Our People
+            Our History
           </h3>
           <p className="font-light text-xl max-w-screen-lg tracking-wider text-center py-8">
-            At the heart of our success lies our people – a diverse team of
-            dedicated professionals who bring unparalleled expertise,
-            innovation, and passion to every project we undertake. From
-            architects and engineers to project managers and skilled workers,
-            each individual contributes to creating structures that stand as
-            benchmarks of quality and excellence. We believe in fostering a
-            culture of collaboration, safety, and continuous growth, empowering
-            our team with advanced training and state-of-the-art tools. Their
-            unwavering commitment not only drives our accomplishments but also
-            strengthens our reputation as an industry leader. Together, we build
-            more than just structures; we build trust, relationships, and a
-            brighter future.
+            KPNG (Kgnaz Power and Network-Infrastructure Group), founded in
+            2011, is a privately held global leader in power and infrastructure
+            development. With operations spanning over 20 countries and a team
+            of more than 5,000 professionals, we specialize in delivering
+            innovative and sustainable solutions that drive progress and empower
+            communities worldwide. From groundbreaking renewable energy plants
+            in Africa to futuristic smart city infrastructure in Asia, KPNG has
+            consistently demonstrated its commitment to excellence and
+            innovation. Recognized for its role in transformative projects such
+            as Saudi Arabia’s Vision 2030 initiatives, our expertise spans
+            infrastructure development, energy solutions, and advanced network
+            systems. Guided by values of integrity, sustainability, and
+            collaboration, KPNG remains dedicated to redefining global
+            infrastructure standards. By harnessing cutting-edge technology and
+            fostering partnerships, we continue to shape the future of power and
+            infrastructure with exceptional quality and a focus on sustainable
+            growth.
+          </p>
+        </div>
+
+        <div className="flex flex-col justify-center items-center px-5 pt-24">
+          <h3 className="font-light text-5xl md:text-7xl text-center uppercase">
+            What We Offer
+          </h3>
+          <p className="font-light text-xl max-w-screen-md tracking-wider text-center py-8">
+            At KPNG, we specialize in delivering innovative, sustainable, and
+            customized solutions that redefine excellence in the power,
+            infrastructure, and technology sectors. With over a decade of
+            experience and a proven track record of success, we provide a
+            comprehensive range of services designed to meet the unique needs of
+            our clients worldwide.
           </p>
         </div>
 
@@ -78,14 +100,22 @@ const About = () => {
               {/* Text Section */}
               <div className="max-w-screen-md h-full">
                 <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
-                  <h3 className="font-light text-5xl md:text-7xl text-center uppercase">
-                    Mission & Values
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Infrastructure Development
                   </h3>
-                  <p className="font-light text-xl max-w-screen-lg tracking-wider text-center py-8">
-                    Our goal is to be the best builder in Global market. Our
-                    core values of Genuine — We, Not I — and All In guide the
-                    way.
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    We design and construct world-class infrastructure tailored
+                    to support industrial, commercial, and urban growth. From
+                    transportation systems to state-of-the-art commercial
+                    complexes, our projects stand as a testament to durability,
+                    functionality, and aesthetic brilliance.
                   </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Road and highway construction</li>
+                    <li>Urban development projects</li>
+                    <li>High-rise and industrial building construction</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -98,21 +128,102 @@ const About = () => {
               {/* Text Section */}
               <div className="max-w-screen-md h-full">
                 <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
-                  <h3 className="font-light text-5xl md:text-7xl text-center uppercase">
-                    Employee Ownership
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Power and Energy Solutions
                   </h3>
-                  <p className="font-light text-xl max-w-screen-lg tracking-wider text-center py-8">
-                    As a 100 percent employee-owned company, we are personally
-                    vested in the success of our clients, trade partners, and
-                    each other.
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    Our expertise lies in creating reliable energy solutions to
+                    power communities and businesses. We integrate renewable
+                    energy technologies and innovative power systems that
+                    prioritize sustainability and efficiency.
                   </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>
+                      Renewable energy installations (solar, wind, and hydro)
+                    </li>
+                    <li>Power plant construction and maintenance</li>
+                    <li>Energy optimization and management systems</li>
+                  </ul>
                 </div>
               </div>
 
               {/* Image Section */}
               <div className="p-5 md:p-20">
                 <img
-                  src={image3}
+                  src={image6}
+                  alt="Collaborative Partner"
+                  className="w-full h-full object-cover shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="py-10">
+          <div className="flex items-center relative">
+            <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
+              {/* Image Section */}
+              <div className="p-5 md:p-20">
+                <img
+                  src={image7}
+                  alt="Collaborative Partner"
+                  className="w-full h-full object-cover shadow"
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className="max-w-screen-md h-full">
+                <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Technology Integration
+                  </h3>
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    We bring cutting-edge technology to the forefront of our
+                    services, ensuring seamless integration into all projects.
+                    Our tech-driven approach enhances project efficiency,
+                    safety, and environmental sustainability.
+                  </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Smart city solutions</li>
+                    <li>IoT-based infrastructure management</li>
+                    <li>Advanced project monitoring and automation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="py-10">
+          <div className="flex items-center relative">
+            <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
+              {/* Text Section */}
+              <div className="max-w-screen-md h-full">
+                <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Project Management Excellence
+                  </h3>
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    At KPNG, we excel in managing complex projects from
+                    conception to completion. Our experienced teams ensure that
+                    every project is delivered on time, within budget, and to
+                    the highest standards of quality.
+                  </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Comprehensive project planning and execution</li>
+                    <li>Risk management and mitigation</li>
+                    <li>Stakeholder coordination and reporting</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Image Section */}
+              <div className="p-5 md:p-20">
+                <img
+                  src={image8}
                   alt="Collaborative Partner"
                   className="w-full h-full object-cover shadow"
                 />
@@ -136,14 +247,59 @@ const About = () => {
               {/* Text Section */}
               <div className="max-w-screen-md h-full">
                 <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
-                  <h3 className="font-light text-5xl md:text-7xl text-center uppercase">
-                    DIVERSITY, EQUITY & INCLUSION
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Environmental and Sustainable Solutions
                   </h3>
-                  <p className="font-light text-xl max-w-screen-lg tracking-wider text-center py-8">
-                    The best outcomes require teams where every voice is heard
-                    and everyone can succeed without barriers. Learn More
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    We are committed to minimizing the environmental footprint
+                    of our projects. Our sustainable practices and green
+                    construction methods ensure that every initiative
+                    contributes to a healthier planet.
                   </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Sustainable building certifications (LEED, BREEAM)</li>
+                    <li>Waste reduction and recycling programs</li>
+                    <li>Carbon footprint analysis</li>
+                  </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="py-10">
+          <div className="flex items-center relative">
+            <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
+              {/* Text Section */}
+              <div className="max-w-screen-md h-full">
+                <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    Global Expertise, Local Impact
+                  </h3>
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    Operating across multiple countries, KPNG combines global
+                    expertise with a deep understanding of local markets and
+                    regulations. This ensures that our solutions are practical,
+                    culturally appropriate, and impactful at the community
+                    level.
+                  </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Regional development initiatives </li>
+                    <li>Compliance with local and international standards</li>
+                    <li>Tailored solutions for diverse geographical regions</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Image Section */}
+              <div className="p-5 md:p-20">
+                <img
+                  src={image3}
+                  alt="Collaborative Partner"
+                  className="w-full h-full object-cover shadow"
+                />
               </div>
             </div>
           </div>
