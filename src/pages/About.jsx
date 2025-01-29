@@ -1,4 +1,5 @@
 import CustomHeader from "../components/CustomHeader";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import image1 from "../assets/aboutImages/image1.jpg";
 import image2 from "../assets/aboutImages/image2.jpg";
@@ -368,9 +369,9 @@ const About = () => {
                   Need to Reach Us?
                 </h3>
                 <div>
-                  <button className="button-48 py-10">
-                    <span className="text">CONTACT US</span>
-                  </button>
+                <Link to={'/contact'} className="button-48 py-10">
+                  <span className="text">CONTACT US</span>
+                </Link>
                 </div>
               </div>
             </div>

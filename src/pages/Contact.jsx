@@ -3,6 +3,12 @@ import CustomHeader from "../components/CustomHeader";
 import Footer from "../components/Footer";
 
 const Contact = () => {
+
+  const indianStates = [
+    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"  
+  ];
+  
+
   return (
     <>
       <CustomHeader
@@ -13,11 +19,11 @@ const Contact = () => {
       <div className="min-h-screen bg-gradient-to-r from-gray-100 to-gray-300 font-roboto-condensed py-10">
         <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row gap-10 p-6 lg:p-12">
           {/* Left Section */}
-          <div className="lg:w-1/2">
-            <h3 className="text-2xl font-bold text-gray-800 mt-6 tracking-wider text-center">
+          <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+            <h3 className="text-3xl font-bold text-gray-800 mb-6 tracking-wider text-center">
               Head Office
             </h3>
-            <p className="text-gray-700 mt-2">
+            <p className="text-gray-700 mb-6 text-center">
               Kingdom Centre Tower, 26th Floor
               <br />
               King Fahd Road, Olaya District, Riyadh 12214
@@ -29,11 +35,11 @@ const Contact = () => {
               <strong>Email:</strong> info@kpng.org
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-800 mt-8 tracking-wider text-center">
+            <h3 className="text-3xl font-bold text-gray-800 mt-8 mb-6 tracking-wider text-center">
               Regional Offices
             </h3>
-            <div className="flex flex-wrap gap-10 items-center py-6">
-              <div>
+            <div className="space-y-6">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                 <p className="text-gray-700">
                   <strong className="text-lg">India</strong>
                   <br />
@@ -46,7 +52,7 @@ const Contact = () => {
                   <strong>Email:</strong> india.info@kpng.in
                 </p>
               </div>
-              <div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                 <p className="text-gray-700">
                   <strong className="text-lg">South Africa</strong>
                   <br />
@@ -59,7 +65,7 @@ const Contact = () => {
                   <strong>Email:</strong> info@kpng.org
                 </p>
               </div>
-              <div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                 <p className="text-gray-700">
                   <strong className="text-lg">USA</strong>
                   <br />
@@ -77,7 +83,7 @@ const Contact = () => {
 
           {/* Right Section */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
               Contact Us
             </h2>
             <form>
@@ -85,28 +91,28 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium text-gray-700 mb-2"
                   >
                     First Name <span className="text-red-600">*</span>
                   </label>
                   <input
                     type="text"
                     id="first-name"
-                    className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
+                    className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
                     required
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium text-gray-700 mb-2"
                   >
                     Last Name <span className="text-red-600">*</span>
                   </label>
                   <input
                     type="text"
                     id="last-name"
-                    className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
+                    className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
                     required
                   />
                 </div>
@@ -115,14 +121,14 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   Email <span className="text-red-600">*</span>
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
                   required
                 />
               </div>
@@ -130,33 +136,29 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="state"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   State <span className="text-red-600">*</span>
                 </label>
-                <select
-                  id="state"
-                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
-                  required
-                >
+                <select id="state" className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3" required>
                   <option value="">- Select -</option>
-                  <option value="CA">California</option>
-                  <option value="NY">New York</option>
-                  <option value="TX">Texas</option>
+                  {indianStates.map((state, index) => (
+                    <option key={index} value={state}>{state}</option>
+                  ))}
                 </select>
               </div>
 
               <div className="mb-6">
                 <label
                   htmlFor="subject"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   Subject <span className="text-red-600">*</span>
                 </label>
                 <input
                   type="text"
                   id="subject"
-                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
                   required
                 />
               </div>
@@ -164,14 +166,14 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   Message <span className="text-red-600">*</span>
                 </label>
                 <textarea
                   id="message"
                   rows="4"
-                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm"
+                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
                   required
                 ></textarea>
               </div>
@@ -192,7 +194,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-[#cacaca] text-white py-3 px-6 rounded-lg hover:opacity-90 focus:outline-none focus:ring-4 focus:ring-red-300"
+                className="w-full bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition duration-300"
               >
                 Submit
               </button>
@@ -201,10 +203,10 @@ const Contact = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center text-center py-10">
-          <h3 className="text-2xl font-bold text-gray-800 mt-8">
+          <h3 className="text-3xl font-bold text-gray-800 mb-4">
             General Inquiries
           </h3>
-          <p className="text-gray-700 mt-2">
+          <p className="text-gray-700">
             For general information about our services or partnerships:
             <br />
             <strong>Call us:</strong> +91 611 123 4567

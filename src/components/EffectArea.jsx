@@ -33,8 +33,8 @@ const EffectArea = () => {
       </div>
 
       <div className="h-[100vh] w-full sticky top-0 z-10 bg-[#FFFFFF] flex flex-col justify-center items-center px-5">
-        <h1 className="font-light text-5xl md:text-7xl text-center"><span className="font-normal">We’ve Done One Thing</span> For Nearly</h1>
-        <h3 className="font-light text-5xl md:text-7xl text-center">160 Years: <span className="font-normal">Build</span></h3>
+        <h1 className="font-light text-5xl md:text-7xl text-center"><span className="font-normal">Creating Impact and Driving Change.</span> For Nearly</h1>
+        <h3 className="font-light text-5xl md:text-7xl text-center">Two Decades.</h3>
         <p className="font-light text-xl md:text-2xl max-w-screen-sm tracking-wider text-center py-5">We assemble high-performing teams ready to solve any challenge and achieve your goals.</p>
       </div>
     </div>

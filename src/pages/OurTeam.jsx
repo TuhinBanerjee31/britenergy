@@ -3,6 +3,7 @@ import CustomHeader from "../components/CustomHeader";
 import Footer from "../components/Footer";
 import TeamCards from "../components/TeamCards";
 import image11 from "../assets/SliderAreaImages/image1.jpg";
+import { Link } from "react-router-dom";
 
 const OurTeam = () => {
   const teamMembers = [
@@ -140,9 +141,9 @@ const OurTeam = () => {
                   Need to Reach Us?
                 </h3>
                 <div>
-                  <button className="button-48 py-10">
+                  <Link to={"/contact"} className="button-48 py-10">
                     <span className="text">CONTACT US</span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
