@@ -4,11 +4,11 @@ const TeamCards = (props) => {
   return (
     <div className="w-full max-w-md border border-gray-200 rounded-lg shadow bg-gray-900">
       <div className="flex flex-col items-center py-10">
-        <img
+        {/* <img
           className="w-24 h-24 mb-3 rounded-full shadow-lg"
           src={props.data.imageUrl}
           alt={props.data.name}
-        />
+        /> */}
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
         {props.data.name}
         </h5>

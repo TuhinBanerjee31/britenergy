@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Glide from "@glidejs/glide";
 import image1 from "../assets/SliderAreaImages/image1.jpg";
+import { Link } from "react-router-dom";
 
 const SliderArea = () => {
   useEffect(() => {
@@ -182,9 +183,9 @@ const SliderArea = () => {
               Need to Reach Us?
               </h3>
               <div>
-                <button className="button-48 py-10">
+                <Link to={'/contact'} className="button-48 py-10">
                   <span className="text">CONTACT US</span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

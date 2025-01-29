@@ -28,7 +28,8 @@ import image27 from "../assets/allProjectImages/image27.jpg";
 import image28 from "../assets/allProjectImages/image28.jpg";
 import image29 from "../assets/allProjectImages/image29.jpg";
 import image30 from "../assets/allProjectImages/image30.jpg";
-import imageDown from "../assets/SliderAreaImages/image1.jpg"
+import imageDown from "../assets/SliderAreaImages/image1.jpg";
+import { Link } from "react-router-dom";
 
 const AllProjects = () => {
   const projectsData = [
@@ -247,7 +248,10 @@ const AllProjects = () => {
         <div className="flex flex-wrap justify-center w-full gap-10">
           {projectsData.map((item) => (
             <div key={item.id} className="flex flex-col gap-1">
-              <img src={item.imgUrl} className="max-w-sm transition-all hover:scale-105 cursor-pointer" />
+              <img
+                src={item.imgUrl}
+                className="max-w-sm transition-all hover:scale-105 cursor-pointer"
+              />
               <h5 className="text-red-600 font-semibold tracking-wider">
                 {item.sector}
               </h5>
@@ -290,9 +294,9 @@ const AllProjects = () => {
                 Need to Reach Us?
               </h3>
               <div>
-                <button className="button-48 py-10">
+                <Link to={"/contact"} className="button-48 py-10">
                   <span className="text">CONTACT US</span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
