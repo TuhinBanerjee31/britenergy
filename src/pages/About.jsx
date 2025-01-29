@@ -40,7 +40,7 @@ const About = () => {
         </div>
 
         <div
-          className="h-[90vh] w-full flex flex-col justify-center items-center px-5 text-white"
+          className="min-h-[90vh] w-full flex flex-col justify-center items-center py-10 px-5 text-white"
           style={{
             backgroundImage: "url(" + image1 + ")",
             backgroundPosition: "center",
