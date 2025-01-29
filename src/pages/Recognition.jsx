@@ -2,7 +2,7 @@ import CustomHeader from "../components/CustomHeader";
 import Footer from "../components/Footer";
 import image1 from "../assets/recognitionImages/image1.jpg";
 import image2 from "../assets/recognitionImages/image2.jpg";
-import CertifacteCard from "../components/certifacteCard";
+import CertifacteCard from "../components/CertifacteCard";
 import { TrophyIcon } from "@heroicons/react/24/outline";
 import image11 from "../assets/SliderAreaImages/image1.jpg";
 import { Link } from "react-router-dom";
