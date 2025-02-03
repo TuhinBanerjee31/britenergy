@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import image1 from "../assets/OtherInfoImages/image1.jpg";
 
 const OtherInfo = () => {
   return (
     <div className="min-h-[80vh] font-roboto-condensed bg-[#EBEBEB]">
-      <div className="flex items-center relative md:pt-20">
+      <div className="flex items-center relative md:pt-20 py-10">
         <div className="container mx-auto md:py-8 grid grid-cols-1 lg:grid-cols-2">
           {/* Image Section */}
           <div className="md:absolute max-w-[500px] mx-auto md:left-[15%] md:top-[95%] z-20">
@@ -28,9 +29,9 @@ const OtherInfo = () => {
                 country and positively impact each community we touch.
               </p>
               <div>
-                <button className="button-48 py-10">
-                  <span className="text uppercase">OUR Commitment</span>
-                </button>
+                <Link to={"/location"} className="button-48 py-10">
+                  <span className="text uppercase">OUR LANDMARKS</span>
+                </Link>
               </div>
             </div>
           </div>

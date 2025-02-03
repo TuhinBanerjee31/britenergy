@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import OtherInfo from '../components/OtherInfo'
 import Overview from '../components/Overview'
 import SliderArea from '../components/SliderArea'
+import Testimonial from '../components/Testimonial'
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
     <Overview />
     <EffectArea />
     <OtherInfo />
+    <Testimonial />
     <SliderArea />
     <Footer />
     </>
