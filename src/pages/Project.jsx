@@ -55,7 +55,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="bg-[#EBEBEA] min-h-[50vh] my-10 flex justify-center items-center">
+        <div className="bg-[#EBEBEA] min-h-[50vh] my-10 px-5 flex justify-center items-center">
           <p className="max-w-screen-md text-2xl tracking-wider">{projectData.desc}</p>
         </div>
 
