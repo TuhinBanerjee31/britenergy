@@ -28,7 +28,7 @@ function App() {
         <Route path="/our-impact/king-abdulaziz-airport" element={<Project />} />
         <Route path="/our-impact/kingdom-tower" element={<Project />} />
         <Route path="/our-impact/jeddah-economic-city" element={<Project />} />
-        <Route path="Lumina Smart City, Singapore" element={<Project />} />
+        <Route path="/our-impact/lumina-smart-city" element={<Project />} />
         <Route path="/our-impact/mumbai-container-terminals" element={<Project />} />
         <Route path="/our-impact/mundra-port-expansion" element={<Project />} />
         <Route path="/our-impact/tata-steel-plant" element={<Project />} />

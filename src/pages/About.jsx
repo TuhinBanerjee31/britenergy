@@ -9,6 +9,7 @@ import image5 from "../assets/aboutImages/image5.jpg";
 import image6 from "../assets/aboutImages/image6.jpg";
 import image7 from "../assets/aboutImages/image7.jpg";
 import image8 from "../assets/aboutImages/image8.jpg";
+import image9 from "../assets/aboutImages/image9.jpg";
 import image11 from "../assets/SliderAreaImages/image1.jpg";
 
 const About = () => {
@@ -306,6 +307,43 @@ const About = () => {
           </div>
         </div>
 
+        <div className="py-10">
+          <div className="flex items-center relative">
+            <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
+              {/* Image Section */}
+              <div className="p-5 md:p-20">
+                <img
+                  src={image9}
+                  alt="Collaborative Partner"
+                  className="w-full h-full object-cover shadow"
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className="max-w-screen-md h-full">
+                <div className="h-full text-black p-8 md:rounded-lg flex flex-col justify-center">
+                  <h3 className="font-light text-3xl md:text-5xl text-center uppercase">
+                    KPNG NOW IN HEAVY MACHINERY MANUFACTURING
+                  </h3>
+                  <p className="font-light text-lg max-w-screen-lg tracking-wider text-center py-8">
+                    We are proud to announce that KPNG has expanded its
+                    operations into the manufacturing of heavy machinery. With
+                    our commitment to innovation and excellence, we now design
+                    and produce high-performance industrial equipment tailored
+                    to meet the demands of various sectors worldwide.
+                  </p>
+
+                  <ul className="flex justify-center gap-10 text-center flex-wrap list-disc">
+                    <li>Construction Equipment</li>
+                    <li>Energy & Power Machinery</li>
+                    <li>Mining & Material Handling</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="py-10 bg-gray-900">
           <div className="flex items-center relative">
             <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
@@ -369,9 +407,9 @@ const About = () => {
                   Need to Reach Us?
                 </h3>
                 <div>
-                <Link to={'/contact'} className="button-48 py-10">
-                  <span className="text">CONTACT US</span>
-                </Link>
+                  <Link to={"/contact"} className="button-48 py-10">
+                    <span className="text">CONTACT US</span>
+                  </Link>
                 </div>
               </div>
             </div>

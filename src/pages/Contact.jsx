@@ -202,6 +202,20 @@ const Contact = () => {
           </div>
         </div>
 
+        <div className="flex justify-around flex-wrap px-8 py-10">
+        <div className="flex flex-col items-center justify-center text-center py-10">
+          <h3 className="text-3xl font-bold text-gray-800 mb-4">
+            Business Related Inquiries
+          </h3>
+          <p className="text-gray-700">
+            We are always here to help you with your project needs:
+            <br />
+            <strong>Call us:</strong> +91 611 123 4567
+            <br />
+            <strong>Email us:</strong> partnership@kpng.org
+          </p>
+        </div>
+
         <div className="flex flex-col items-center justify-center text-center py-10">
           <h3 className="text-3xl font-bold text-gray-800 mb-4">
             General Inquiries
@@ -211,9 +225,24 @@ const Contact = () => {
             <br />
             <strong>Call us:</strong> +91 611 123 4567
             <br />
-            <strong>Email us:</strong> contact@kpnglobal.com
+            <strong>Email us:</strong> help@kpng.org
           </p>
         </div>
+
+        <div className="flex flex-col items-center justify-center text-center py-10">
+          <h3 className="text-3xl font-bold text-gray-800 mb-4">
+            HR Related Inquiries
+          </h3>
+          <p className="text-gray-700">
+            If you are one of our employees or have a career related enquire:
+            <br />
+            <strong>Call us:</strong> +91 611 123 4567
+            <br />
+            <strong>Email us:</strong> careers@kpng.org
+          </p>
+        </div>
+        </div>
+
       </div>
 
       <Footer />
