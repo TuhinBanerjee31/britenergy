@@ -33,7 +33,7 @@ const Project = () => {
                 Client
               </p>
               <p className="text-md sm:text-lg font-bold text-gray-900 text-center md:text-left">
-                Hoag Memorial Hospital Presbyterian
+                {projectData.client || "Updating"}
               </p>
             </div>
             <div>
@@ -41,7 +41,7 @@ const Project = () => {
                 Project Status
               </p>
               <p className="text-md sm:text-lg font-bold text-gray-900 text-center md:text-left">
-                In Progress
+              {projectData.status || "In Progress"}
               </p>
             </div>
             <div>
@@ -55,8 +55,23 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="bg-[#EBEBEA] min-h-[50vh] my-10 px-5 flex justify-center items-center">
-          <p className="max-w-screen-md text-2xl tracking-wider">{projectData.desc}</p>
+        <div className="bg-[#EBEBEA] min-h-[50vh] my-10 px-5 py-20 gap-5 flex flex-col justify-center items-center">
+          <p className="max-w-screen-lg text-xl tracking-wider">{projectData.desc}</p>
+
+          {projectData.scope && (<div>
+            <h4 className="text-gray-500 tracking-wider underline">Scope of Involvement</h4>
+            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.scope}</p>
+          </div>)}
+
+          {projectData.operations && (<div>
+            <h4 className="text-gray-500 tracking-wider underline">Engineering Excellence and Operational Efficiency</h4>
+            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.operations}</p>
+          </div>)}
+
+          {projectData.impact && (<div>
+            <h4 className="text-gray-500 tracking-wider underline">Impact and Legacy</h4>
+            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.impact}</p>
+          </div>)}
         </div>
 
         <div className="flex items-center relative py-20">
