@@ -5,8 +5,8 @@ import imageDown from "../assets/SliderAreaImages/image1.jpg";
 import { Link, useLocation } from "react-router-dom";
 
 const Project = () => {
-    const location = useLocation();
-    const projectData = location.state;
+  const location = useLocation();
+  const projectData = location.state;
   return (
     <>
       <CustomHeader
@@ -41,12 +41,12 @@ const Project = () => {
                 Project Status
               </p>
               <p className="text-md sm:text-lg font-bold text-gray-900 text-center md:text-left">
-              {projectData.status || "In Progress"}
+                {projectData.status || "In Progress"}
               </p>
             </div>
             <div>
               <p className="text-xs text-gray-500 font-semibold uppercase text-center md:text-left">
-                Markets
+                Category
               </p>
               <p className="text-md sm:text-lg font-bold text-red-600 underline text-center md:text-left">
                 {projectData.sector}
@@ -56,22 +56,42 @@ const Project = () => {
         </div>
 
         <div className="bg-[#EBEBEA] min-h-[50vh] my-10 px-5 py-20 gap-5 flex flex-col justify-center items-center">
-          <p className="max-w-screen-lg text-xl tracking-wider">{projectData.desc}</p>
+          <p className="max-w-screen-lg text-xl tracking-wider">
+            {projectData.desc}
+          </p>
 
-          {projectData.scope && (<div>
-            <h4 className="text-gray-500 tracking-wider underline">Scope of Involvement</h4>
-            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.scope}</p>
-          </div>)}
+          {projectData.scope && (
+            <div>
+              <h4 className="text-gray-500 tracking-wider underline">
+                Scope of Involvement
+              </h4>
+              <p className="max-w-screen-lg text-xl tracking-wider">
+                {projectData.scope}
+              </p>
+            </div>
+          )}
 
-          {projectData.operations && (<div>
-            <h4 className="text-gray-500 tracking-wider underline">Engineering Excellence and Operational Efficiency</h4>
-            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.operations}</p>
-          </div>)}
+          {projectData.operations && (
+            <div>
+              <h4 className="text-gray-500 tracking-wider underline">
+                Engineering Excellence and Operational Efficiency
+              </h4>
+              <p className="max-w-screen-lg text-xl tracking-wider">
+                {projectData.operations}
+              </p>
+            </div>
+          )}
 
-          {projectData.impact && (<div>
-            <h4 className="text-gray-500 tracking-wider underline">Impact and Legacy</h4>
-            <p className="max-w-screen-lg text-xl tracking-wider">{projectData.impact}</p>
-          </div>)}
+          {projectData.impact && (
+            <div>
+              <h4 className="text-gray-500 tracking-wider underline">
+                Impact and Legacy
+              </h4>
+              <p className="max-w-screen-lg text-xl tracking-wider">
+                {projectData.impact}
+              </p>
+            </div>
+          )}
         </div>
 
         <div className="flex items-center relative py-20">

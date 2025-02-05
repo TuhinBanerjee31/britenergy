@@ -47,9 +47,13 @@ const Contact = () => {
                   <br />
                   Visakhapatnam, Andhra Pradesh, 530016, India
                   <br />
-                  <strong>Phone:</strong> +91 40 1234 5678
+                  <strong>Phone:</strong> +91 2241891660
                   <br />
-                  <strong>Email:</strong> india.info@kpng.in
+                  <strong>General Enquires:</strong> help@kpng.org
+                  <br />
+                  <strong>Partnership Related Enquires:</strong> partner@kpng.org
+                  <br />
+                  <strong>HR Related Enquires:</strong> hr.india@kpng.org
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
