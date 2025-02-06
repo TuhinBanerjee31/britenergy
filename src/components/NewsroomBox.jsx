@@ -30,6 +30,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
       category: "Sustainability",
       date: "January 2025",
+      redirect: "/newsroom/article",
     },
     {
       id: 2,
@@ -40,6 +41,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
       category: "Technology",
       date: "December 2024",
+      redirect: "/newsroom/article",
     },
     {
       id: 3,
@@ -50,6 +52,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
       category: "Workplace",
       date: "November 2024",
+      redirect: "/newsroom/article",
     },
   ];
 
@@ -63,6 +66,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
       category: "Sustainability",
       date: "Februray 2025",
+      redirect: "/newsroom/article",
     },
     {
       id: 2,
@@ -73,6 +77,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
       category: "Sustainability",
       date: "Februray 2025",
+      redirect: "/newsroom/article",
     },
     {
       id: 3,
@@ -83,6 +88,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
       category: "Technology",
       date: "January 2025",
+      redirect: "/newsroom/article",
     },
   ];
 
@@ -96,6 +102,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
       category: "Infrastructure",
       date: "January 2025",
+      redirect: "/newsroom/article",
     },
     {
       id: 2,
@@ -106,6 +113,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
       category: "Sustainability",
       date: "January 2025",
+      redirect: "/newsroom/article",
     },
   ];
 
@@ -119,6 +127,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
       category: "Sustainability",
       date: "December 2024",
+      redirect: "/newsroom/article",
     },
     {
       id: 2,
@@ -129,6 +138,7 @@ const NewsroomBox = () => {
         "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
       category: "Technology",
       date: "November 2024",
+      redirect: "/newsroom/article",
     },
   ];
 
@@ -201,7 +211,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles1.map((article) => (
             <div key={article.id} className="group">
-              <Link to={`/article/${article.id}`} className="block">
+              <Link to={article.redirect} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -255,7 +265,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles2.map((article) => (
             <div key={article.id} className="group">
-              <Link to={`/article/${article.id}`} className="block">
+              <Link to={article.redirect} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -309,7 +319,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles3.map((article) => (
             <div key={article.id} className="group">
-              <Link to={`/article/${article.id}`} className="block">
+              <Link to={article.redirect} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -363,7 +373,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles4.map((article) => (
             <div key={article.id} className="group">
-              <Link to={`/article/${article.id}`} className="block">
+              <Link to={article.redirect} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -410,11 +420,11 @@ const NewsroomBox = () => {
           <div className="max-w-2xl mx-auto text-center">
             <Mail className="h-12 w-12 sm:h-16 sm:w-16 mx-auto text-white mb-6 animate-bounce" />
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Subscribe to Our Newsletter
+              Subscribe to Our Newsletter
             </h2>
             <p className="text-lg sm:text-xl text-blue-100 mb-8">
-            Sign up for our newsletter to receive updates on our projects, industry insights, and company news 
-            directly in your inbox. 
+              Sign up for our newsletter to receive updates on our projects,
+              industry insights, and company news directly in your inbox.
             </p>
             {isSubscribed ? (
               <div className="flex items-center justify-center space-x-2 text-white">
@@ -450,37 +460,37 @@ const NewsroomBox = () => {
       </div>
 
       <div className="flex items-center relative py-28">
-                <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
-                  {/* Image Section */}
-                  <div>
-                    <img
-                      src={imageDown}
-                      alt="Collaborative Partner"
-                      className="w-full h-full object-cover shadow"
-                    />
-                  </div>
-      
-                  {/* Text Section */}
-                  <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-                    <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
-                      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
-                        Let’s Talk
-                      </h2>
-                      <h2 className="text-3xl sm:text-4xl uppercase lg:text-5xl font-light mb-4">
-                        Let’s Build Together
-                      </h2>
-                      <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-                        Need to Reach Us?
-                      </h3>
-                      <div>
-                        <Link to={"/contact"} className="button-48 py-10">
-                          <span className="text">CONTACT US</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
+          {/* Image Section */}
+          <div>
+            <img
+              src={imageDown}
+              alt="Collaborative Partner"
+              className="w-full h-full object-cover shadow"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
+            <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
+                Let’s Talk
+              </h2>
+              <h2 className="text-3xl sm:text-4xl uppercase lg:text-5xl font-light mb-4">
+                Let’s Build Together
+              </h2>
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+                Need to Reach Us?
+              </h3>
+              <div>
+                <Link to={"/contact"} className="button-48 py-10">
+                  <span className="text">CONTACT US</span>
+                </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
