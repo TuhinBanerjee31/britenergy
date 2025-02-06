@@ -10,6 +10,7 @@ import Recognition from "./pages/Recognition";
 import Location from "./pages/Location";
 import Project from "./pages/Project";
 import BlogNews from "./pages/Newsroom";
+import { ArticlePage } from "./pages/ArticlePage";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/our-impact/panama-canal-expansion" element={<Project />} />
         <Route path="/our-impact/london-crossrail" element={<Project />} />
         <Route path="/newsroom" element={<BlogNews />} />
+        <Route path="/newsroom/article" element={<ArticlePage />} />
       </Routes>
     </>
   );
