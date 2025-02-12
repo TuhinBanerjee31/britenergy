@@ -2,8 +2,11 @@ import { useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import image1 from "../assets/SliderAreaImages/image1.jpg";
 import { Link } from "react-router-dom";
+import { articles3 } from "../data/articleData";
 
 const SliderArea = () => {
+  const featured = articles3[0];
+
   // useEffect(() => {
   //   const slider = new Glide(".glide-04", {
   //     type: "carousel",
@@ -93,7 +96,7 @@ const SliderArea = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
           <div className="relative rounded-xl overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070"
+              src={featured.image}
               alt="Featured"
               className="w-full h-[300px] sm:h-[400px] lg:h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-700"
             />
@@ -104,15 +107,14 @@ const SliderArea = () => {
                   Featured Story
                 </span>
                 <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-                  Revolutionizing Tech: The Next Generation of Innovation
+                  {featured.title}
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-200 mb-6 sm:mb-8 line-clamp-3">
-                  Discover how emerging technologies are reshaping industries
-                  and creating new opportunities for growth and innovation in
-                  ways we never imagined possible.
+                  {featured.excerpt}
                 </p>
                 <Link
-                  to="/article/featured"
+                  to={featured.redirect}
+                  state={featured}
                   className="inline-flex items-center text-white bg-blue-600 px-4 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-blue-700 transition-colors group text-sm sm:text-base"
                 >
                   Read Full Story
