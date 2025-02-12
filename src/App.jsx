@@ -45,7 +45,16 @@ function App() {
         <Route path="/our-impact/panama-canal-expansion" element={<Project />} />
         <Route path="/our-impact/london-crossrail" element={<Project />} />
         <Route path="/newsroom" element={<BlogNews />} />
-        <Route path="/newsroom/article" element={<ArticlePage />} />
+        <Route path="/newsroom/kpng-solar-park-in-south-africa" element={<ArticlePage />} />
+        <Route path="/newsroom/smart-city-solutions-initiative" element={<ArticlePage />} />
+        <Route path="/newsroom/global-expansion" element={<ArticlePage />} />
+        <Route path="/newsroom/future-of-green-construction" element={<ArticlePage />} />
+        <Route path="/newsroom/powering-the-world-sustainably" element={<ArticlePage />} />
+        <Route path="/newsroom/role-of-technology-in-infrastructure" element={<ArticlePage />} />
+        <Route path="/newsroom/iconic-infrastructure-dubai" element={<ArticlePage />} />
+        <Route path="/newsroom/renewable-energy-brazil" element={<ArticlePage />} />
+        <Route path="/newsroom/emerging-energy-storage" element={<ArticlePage />} />
+        <Route path="/newsroom/smart-cities-frontier" element={<ArticlePage />} />
       </Routes>
     </>
   );

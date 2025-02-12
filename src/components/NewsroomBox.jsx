@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   TrendingUp,
-  Award,
   Calendar,
   ArrowRight,
   Mail,
   CheckCircle,
 } from "lucide-react";
 import imageDown from "../assets/SliderAreaImages/image1.jpg";
+// import image2 from "../assets/newsroomImages/image2.jpg"
+import { articles1, articles2, articles3, articles4 } from "../data/articleData";
 
 const NewsroomBox = () => {
   const [email, setEmail] = useState("");
@@ -20,127 +21,129 @@ const NewsroomBox = () => {
     setIsSubscribed(true);
     setEmail("");
   };
-  const articles1 = [
-    {
-      id: 1,
-      title: "KPNG Completes Groundbreaking Solar Park in South Africa",
-      excerpt:
-        "KPNG successfully delivered a state-of-the-art solar park in South Africa, providing sustainable energy to thousands of homes. This project reinforces our commitment to renewable energy and environmental sustainability.",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-      category: "Sustainability",
-      date: "January 2025",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 2,
-      title: "Launch of New Smart City Solutions Initiative",
-      excerpt:
-        "KPNG introduces its new Smart City Solutions program, leveraging IoT and AI technologies to create smarter, safer, and more efficient urban environments globally.",
-      image:
-        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
-      category: "Technology",
-      date: "December 2024",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 3,
-      title: "Global Expansion: New Offices in Russia and South America",
-      excerpt:
-        "KPNG announces the opening of its new regional offices in Moscow, Russia, and Santiago, Chile, marking another step in our global expansion journey.",
-      image:
-        "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
-      category: "Workplace",
-      date: "November 2024",
-      redirect: "/newsroom/article",
-    },
-  ];
 
-  const articles2 = [
-    {
-      id: 1,
-      title: "The Future of Green Construction",
-      excerpt:
-        "Discover how green building certifications, sustainable materials, and innovative designs are shaping the future of eco-friendly infrastructure development.",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-      category: "Sustainability",
-      date: "Februray 2025",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 2,
-      title: "Powering the World Sustainably",
-      excerpt:
-        "Explore the latest trends in renewable energy and how KPNG is leading the way in solar, wind, and hydroelectric projects worldwide.",
-      image:
-        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
-      category: "Sustainability",
-      date: "Februray 2025",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 3,
-      title: "The Role of Technology in Infrastructure Development",
-      excerpt:
-        "Learn how IoT, AI, and automation are transforming the construction and infrastructure industry for greater efficiency and precision.",
-      image:
-        "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
-      category: "Technology",
-      date: "January 2025",
-      redirect: "/newsroom/article",
-    },
-  ];
+  const featured = articles3[0];
 
-  const articles3 = [
-    {
-      id: 1,
-      title: "Iconic Infrastructure in Dubai",
-      excerpt:
-        "A closer look at how KPNG contributed to the creation of a landmark commercial complex in Dubai, combining innovative design with sustainable practices.",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-      category: "Infrastructure",
-      date: "January 2025",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 2,
-      title: "Renewable Energy Success in Brazil",
-      excerpt:
-        "Learn about our journey in developing a wind energy project that powers over 100,000 homes in rural Brazil, driving progress and sustainability.",
-      image:
-        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
-      category: "Sustainability",
-      date: "January 2025",
-      redirect: "/newsroom/article",
-    },
-  ];
+  // const articles1 = [
+  //   {
+  //     id: 1,
+  //     title: "KPNG Completes Groundbreaking Solar Park in South Africa",
+  //     excerpt:
+  //       "KPNG successfully delivered a state-of-the-art solar park in South Africa, providing sustainable energy to thousands of homes. This project reinforces our commitment to renewable energy and environmental sustainability.",
+  //     image: image2,
+  //     category: "Sustainability",
+  //     date: "January 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Launch of New Smart City Solutions Initiative",
+  //     excerpt:
+  //       "KPNG introduces its new Smart City Solutions program, leveraging IoT and AI technologies to create smarter, safer, and more efficient urban environments globally.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
+  //     category: "Technology",
+  //     date: "December 2024",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Global Expansion: New Offices in Russia and South America",
+  //     excerpt:
+  //       "KPNG announces the opening of its new regional offices in Moscow, Russia, and Santiago, Chile, marking another step in our global expansion journey.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
+  //     category: "Workplace",
+  //     date: "November 2024",
+  //     redirect: "/newsroom/article",
+  //   },
+  // ];
 
-  const articles4 = [
-    {
-      id: 1,
-      title: "Emerging Trends in Energy Storage Solutions",
-      excerpt:
-        "Explore the latest advancements in battery technology and grid storage systems, enabling reliable and efficient renewable energy distribution.",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-      category: "Sustainability",
-      date: "December 2024",
-      redirect: "/newsroom/article",
-    },
-    {
-      id: 2,
-      title: "Smart Cities: The Next Frontier",
-      excerpt:
-        "Discover how smart cities are revolutionizing urban living and how KPNG is at the forefront of this transformation.",
-      image:
-        "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
-      category: "Technology",
-      date: "November 2024",
-      redirect: "/newsroom/article",
-    },
-  ];
+  // const articles2 = [
+  //   {
+  //     id: 1,
+  //     title: "The Future of Green Construction",
+  //     excerpt:
+  //       "Discover how green building certifications, sustainable materials, and innovative designs are shaping the future of eco-friendly infrastructure development.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
+  //     category: "Sustainability",
+  //     date: "Februray 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Powering the World Sustainably",
+  //     excerpt:
+  //       "Explore the latest trends in renewable energy and how KPNG is leading the way in solar, wind, and hydroelectric projects worldwide.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
+  //     category: "Sustainability",
+  //     date: "Februray 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "The Role of Technology in Infrastructure Development",
+  //     excerpt:
+  //       "Learn how IoT, AI, and automation are transforming the construction and infrastructure industry for greater efficiency and precision.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
+  //     category: "Technology",
+  //     date: "January 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  // ];
+
+  // const articles3 = [
+  //   {
+  //     id: 1,
+  //     title: "Iconic Infrastructure in Dubai",
+  //     excerpt:
+  //       "A closer look at how KPNG contributed to the creation of a landmark commercial complex in Dubai, combining innovative design with sustainable practices.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
+  //     category: "Infrastructure",
+  //     date: "January 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Renewable Energy Success in Brazil",
+  //     excerpt:
+  //       "Learn about our journey in developing a wind energy project that powers over 100,000 homes in rural Brazil, driving progress and sustainability.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=800",
+  //     category: "Sustainability",
+  //     date: "January 2025",
+  //     redirect: "/newsroom/article",
+  //   },
+  // ];
+
+  // const articles4 = [
+  //   {
+  //     id: 1,
+  //     title: "Emerging Trends in Energy Storage Solutions",
+  //     excerpt:
+  //       "Explore the latest advancements in battery technology and grid storage systems, enabling reliable and efficient renewable energy distribution.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
+  //     category: "Sustainability",
+  //     date: "December 2024",
+  //     redirect: "/newsroom/article",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Smart Cities: The Next Frontier",
+  //     excerpt:
+  //       "Discover how smart cities are revolutionizing urban living and how KPNG is at the forefront of this transformation.",
+  //     image:
+  //       "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=800",
+  //     category: "Technology",
+  //     date: "November 2024",
+  //     redirect: "/newsroom/article",
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen bg-[#EBEBEB] font-roboto-condensed">
@@ -164,7 +167,7 @@ const NewsroomBox = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
         <div className="relative rounded-xl overflow-hidden group">
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070"
+            src={featured.image}
             alt="Featured"
             className="w-full h-[300px] sm:h-[400px] lg:h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-700"
           />
@@ -175,15 +178,14 @@ const NewsroomBox = () => {
                 Featured Story
               </span>
               <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-                Revolutionizing Tech: The Next Generation of Innovation
+                {featured.title}
               </h2>
               <p className="text-base sm:text-lg lg:text-xl text-gray-200 mb-6 sm:mb-8 line-clamp-3">
-                Discover how emerging technologies are reshaping industries and
-                creating new opportunities for growth and innovation in ways we
-                never imagined possible.
+                {featured.excerpt}
               </p>
               <Link
-                to="/article/featured"
+                to={featured.redirect}
+                state={featured}
                 className="inline-flex items-center text-white bg-blue-600 px-4 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-blue-700 transition-colors group text-sm sm:text-base"
               >
                 Read Full Story
@@ -211,7 +213,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles1.map((article) => (
             <div key={article.id} className="group">
-              <Link to={article.redirect} className="block">
+              <Link to={article.redirect} state={article} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -265,7 +267,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles2.map((article) => (
             <div key={article.id} className="group">
-              <Link to={article.redirect} className="block">
+              <Link to={article.redirect} state={article} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -319,7 +321,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles3.map((article) => (
             <div key={article.id} className="group">
-              <Link to={article.redirect} className="block">
+              <Link to={article.redirect} state={article} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}
@@ -373,7 +375,7 @@ const NewsroomBox = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {articles4.map((article) => (
             <div key={article.id} className="group">
-              <Link to={article.redirect} className="block">
+              <Link to={article.redirect} state={article} className="block">
                 <div className="relative overflow-hidden rounded-xl mb-4 sm:mb-6">
                   <img
                     src={article.image}

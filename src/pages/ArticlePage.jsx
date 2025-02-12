@@ -1,9 +1,19 @@
-import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Calendar, Share2, Bookmark, ThumbsUp, ArrowLeft, Facebook, Twitter, Linkedin, Link as LinkIcon, CheckCircle } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import {
+  Calendar,
+  Share2,
+  Bookmark,
+  ThumbsUp,
+  ArrowLeft,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Link as LinkIcon,
+  CheckCircle,
+} from "lucide-react";
 
 export function ArticlePage() {
-  const id = 'featured';
   const navigate = useNavigate();
   const [showShareTooltip, setShowShareTooltip] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -12,66 +22,39 @@ export function ArticlePage() {
     window.scrollTo(0, 0);
   }, []);
 
-  // In a real app, this would come from an API
-  const article = {
-    title: id === 'featured' 
-      ? "Revolutionizing Tech: The Next Generation of Innovation"
-      : ["AI Breakthrough in Healthcare", "Sustainable Tech Solutions", "Future of Remote Work"][Number(id) - 1],
-    category: id === 'featured' ? "Technology" : ["Healthcare", "Sustainability", "Workplace"][Number(id) - 1],
-    date: "March 5, 2024",
-    author: "Sarah Johnson",
-    authorRole: "Technology Editor",
-    authorImage: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
-    image: id === 'featured'
-      ? "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070"
-      : ["https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070",
-         "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=2070",
-         "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&q=80&w=2070"][Number(id) - 1],
-    content: `
-      <p class="text-lg sm:text-xl leading-relaxed mb-6">
-        In an era of unprecedented technological advancement, the intersection of artificial intelligence, sustainable innovation, and human creativity is giving rise to transformative solutions that promise to reshape our world. This comprehensive exploration delves into the cutting-edge developments that are defining the future of technology.
-      </p>
-
-      <h2 class="text-xl sm:text-2xl font-bold mb-4 mt-8">The Dawn of a New Era</h2>
-      <p class="text-base sm:text-lg leading-relaxed mb-6">
-        As we stand on the brink of a new technological revolution, the convergence of multiple disciplines is creating opportunities that were once confined to the realm of science fiction. From quantum computing to biotechnology, the boundaries between different fields are becoming increasingly blurred, giving rise to innovative solutions that address some of humanity's most pressing challenges.
-      </p>
-
-      <h2 class="text-xl sm:text-2xl font-bold mb-4 mt-8">Transformative Technologies</h2>
-      <p class="text-base sm:text-lg leading-relaxed mb-6">
-        The rapid evolution of artificial intelligence and machine learning algorithms is enabling breakthroughs in fields ranging from healthcare to climate science. These advances are not just incremental improvements but represent fundamental shifts in how we approach complex problems.
-      </p>
-
-      <h2 class="text-xl sm:text-2xl font-bold mb-4 mt-8">Looking Ahead</h2>
-      <p class="text-base sm:text-lg leading-relaxed mb-6">
-        As we look to the future, it's clear that the pace of innovation shows no signs of slowing. The next decade promises to bring even more revolutionary changes, with emerging technologies continuing to reshape our world in ways we are only beginning to understand.
-      </p>
-
-      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
-        "The future belongs to those who believe in the beauty of their dreams, and in the tech world, those dreams are becoming reality faster than ever before."
-      </blockquote>
-
-      <p class="text-base sm:text-lg leading-relaxed mb-6">
-        The implications of these technological advances extend far beyond their immediate applications, promising to reshape industries, economies, and societies in profound ways. As we continue to push the boundaries of what's possible, the only limit appears to be our imagination.
-      </p>
-    `
-  };
+  const location = useLocation();
+  const article = location.state;
 
   const handleShare = (platform) => {
     const url = window.location.href;
     const text = `Check out this article: ${article.title}`;
-    
+
     switch (platform) {
-      case 'facebook':
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+      case "facebook":
+        window.open(
+          `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+            url
+          )}`,
+          "_blank"
+        );
         break;
-      case 'twitter':
-        window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`, '_blank');
+      case "twitter":
+        window.open(
+          `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+            url
+          )}&text=${encodeURIComponent(text)}`,
+          "_blank"
+        );
         break;
-      case 'linkedin':
-        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, '_blank');
+      case "linkedin":
+        window.open(
+          `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+            url
+          )}`,
+          "_blank"
+        );
         break;
-      case 'copy':
+      case "copy":
         navigator.clipboard.writeText(url).then(() => {
           setCopied(true);
           setTimeout(() => setCopied(false), 2000);
@@ -118,8 +101,12 @@ export function ArticlePage() {
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white"
               />
               <div>
-                <div className="text-white font-medium text-sm sm:text-base">{article.author}</div>
-                <div className="text-gray-300 text-xs sm:text-sm">{article.authorRole}</div>
+                <div className="text-white font-medium text-sm sm:text-base">
+                  {article.author}
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm">
+                  {article.authorRole}
+                </div>
               </div>
             </div>
             <div className="flex items-center text-gray-300 text-sm sm:text-base">
@@ -143,33 +130,33 @@ export function ArticlePage() {
                 <Share2 className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span>Share</span>
               </button>
-              
+
               {showShareTooltip && (
                 <div className="absolute left-0 top-full mt-2 bg-white rounded-lg shadow-lg border p-2 z-50">
                   <div className="flex flex-col space-y-2">
                     <button
-                      onClick={() => handleShare('facebook')}
+                      onClick={() => handleShare("facebook")}
                       className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 rounded-lg transition-colors"
                     >
                       <Facebook className="h-4 w-4 text-blue-600" />
                       <span>Facebook</span>
                     </button>
                     <button
-                      onClick={() => handleShare('twitter')}
+                      onClick={() => handleShare("twitter")}
                       className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 rounded-lg transition-colors"
                     >
                       <Twitter className="h-4 w-4 text-blue-400" />
                       <span>Twitter</span>
                     </button>
                     <button
-                      onClick={() => handleShare('linkedin')}
+                      onClick={() => handleShare("linkedin")}
                       className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 rounded-lg transition-colors"
                     >
                       <Linkedin className="h-4 w-4 text-blue-700" />
                       <span>LinkedIn</span>
                     </button>
                     <button
-                      onClick={() => handleShare('copy')}
+                      onClick={() => handleShare("copy")}
                       className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-100 rounded-lg transition-colors"
                     >
                       {copied ? (
@@ -177,7 +164,7 @@ export function ArticlePage() {
                       ) : (
                         <LinkIcon className="h-4 w-4 text-gray-600" />
                       )}
-                      <span>{copied ? 'Copied!' : 'Copy link'}</span>
+                      <span>{copied ? "Copied!" : "Copy link"}</span>
                     </button>
                   </div>
                 </div>
@@ -192,13 +179,11 @@ export function ArticlePage() {
               <span>Like</span>
             </button>
           </div>
-          <div className="text-gray-500 text-xs sm:text-sm">
-            8 min read
-          </div>
+          <div className="text-gray-500 text-xs sm:text-sm">8 min read</div>
         </div>
 
         {/* Article Body */}
-        <div 
+        <div
           className="prose prose-sm sm:prose lg:prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
@@ -206,8 +191,10 @@ export function ArticlePage() {
         {/* Tags */}
         <div className="mt-8 sm:mt-12 pt-4 sm:pt-6 border-t">
           <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-            <span className="text-gray-700 font-medium text-sm sm:text-base">Tags:</span>
-            {['Technology', 'Innovation', 'Future', 'AI'].map((tag) => (
+            <span className="text-gray-700 font-medium text-sm sm:text-base">
+              Tags:
+            </span>
+            {["Technology", "Innovation", "Future", "AI"].map((tag) => (
               <span
                 key={tag}
                 className="px-2 sm:px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-sm hover:bg-gray-200 cursor-pointer transition-colors"
