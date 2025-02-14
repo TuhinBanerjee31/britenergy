@@ -214,7 +214,7 @@ const Contact = () => {
           <p className="text-gray-700">
             We are always here to help you with your project needs:
             <br />
-            <strong>Call us:</strong> +91 611 123 4567
+            <strong>Call us:</strong> 224 189 1655
             <br />
             <strong>Email us:</strong> partnership@kpng.org
           </p>
@@ -227,7 +227,7 @@ const Contact = () => {
           <p className="text-gray-700">
             For general information about our services or partnerships:
             <br />
-            <strong>Call us:</strong> +91 611 123 4567
+            <strong>Call us:</strong> 224 189 1656
             <br />
             <strong>Email us:</strong> help@kpng.org
           </p>
@@ -240,7 +240,7 @@ const Contact = () => {
           <p className="text-gray-700">
             If you are one of our employees or have a career related enquire:
             <br />
-            <strong>Call us:</strong> +91 611 123 4567
+            <strong>Call us:</strong> 224 189 1657
             <br />
             <strong>Email us:</strong> careers@kpng.org
           </p>
