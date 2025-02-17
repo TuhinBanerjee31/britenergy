@@ -30,7 +30,7 @@ const Accordion = () => {
       id: 4,
       question: "Is KPNG a real company?",
       answer:
-        "Yes, KPNG (Kgnaz Power and Network-Infrastructure Group) is a privately held organization founded in 2011. With a global presence and a proven track record of excellence, we have successfully completed numerous projects worldwide.",
+        "Yes, KPNG (Knagz Power and Network-Infrastructure Group) is a privately held organization founded in 2011. With a global presence and a proven track record of excellence, we have successfully completed numerous projects worldwide.",
     },
     {
       id: 5,

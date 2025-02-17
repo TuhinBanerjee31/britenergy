@@ -53,7 +53,7 @@ const About = () => {
             Our History
           </h3>
           <p className="font-light text-xl max-w-screen-lg tracking-wider text-center py-8">
-            KPNG (Kgnaz Power and Network-Infrastructure Group), founded in
+            KPNG (Knagz Power and Network-Infrastructure Group), founded in
             2011, is a privately held global leader in power and infrastructure
             development. With operations spanning over 20 countries and a team
             of more than 5,000 professionals, we specialize in delivering

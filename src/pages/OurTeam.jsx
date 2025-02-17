@@ -16,12 +16,20 @@ const OurTeam = () => {
         "Oversees all financial operations, including budgeting, forecasting, and managing the investment strategy. Ensures financial stability and strategically invests in growth initiatives. Responsible for risk management and ensuring compliance with financial regulations across global operations.",
     },
     {
+      id: 0,
+      name: "Ahmed Raza Siddiqui",
+      title: "Chief executive officer (CEO)",
+      imageUrl: "https://example.com/images/omar-al-rashid.jpg",
+      responsibilities:
+        "CEO of KPNG, is a visionary leader in infrastructure and energy. With expertise in engineering and business, he drives strategic growth and innovation. Under his leadership, KPNG has expanded globally and strengthened industry partnerships. He is committed to excellence, efficiency, and future-ready solutions.",
+    },
+    {
       id: 2,
       name: "Yasser Al-Zahrani",
       title: "Chief Marketing Officer (CMO)",
       imageUrl: "https://example.com/images/yasser-al-zahrani.jpg",
       responsibilities:
-        "Leads marketing and branding efforts, overseeing strategic marketing initiatives. Drives public relations strategies, digital marketing, and brand management. Enhances KPNG’s visibility and reputation in the power and infrastructure sector.",
+        "Leads marketing and branding efforts, overseeing strategic marketing initiatives. Drives public relations strategies, digital marketing, and brand management. Enhances KPNG’s visibility and reputation in the power and infrastructure sector. Develops innovative campaigns to strengthen industry presence.",
     },
     {
       id: 3,
