@@ -2,7 +2,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import OurWork from "./pages/OurWork";
 import OurTeam from "./pages/OurTeam";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
@@ -11,6 +10,8 @@ import Location from "./pages/Location";
 import Project from "./pages/Project";
 import BlogNews from "./pages/Newsroom";
 import { ArticlePage } from "./pages/ArticlePage";
+import OurImapct from "./pages/OurImpact";
+import WorkPage from "./pages/WorkPage";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
-        <Route path="/our-impact" element={<OurWork />} />
+        <Route path="/our-impact" element={<OurImapct />} />
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<Faq />} />
@@ -55,6 +56,7 @@ function App() {
         <Route path="/newsroom/renewable-energy-brazil" element={<ArticlePage />} />
         <Route path="/newsroom/emerging-energy-storage" element={<ArticlePage />} />
         <Route path="/newsroom/smart-cities-frontier" element={<ArticlePage />} />
+        {/* <Route path="/our-work/infrastructure" element={<WorkPage />} /> */}
       </Routes>
     </>
   );
