@@ -56,7 +56,11 @@ function App() {
         <Route path="/newsroom/renewable-energy-brazil" element={<ArticlePage />} />
         <Route path="/newsroom/emerging-energy-storage" element={<ArticlePage />} />
         <Route path="/newsroom/smart-cities-frontier" element={<ArticlePage />} />
-        {/* <Route path="/our-work/infrastructure" element={<WorkPage />} /> */}
+        <Route path="/our-work/infrastructure" element={<WorkPage />} />
+        <Route path="/our-work/energy" element={<WorkPage />} />
+        <Route path="/our-work/manufacturing" element={<WorkPage />} />
+        <Route path="/our-work/oil-gas" element={<WorkPage />} />
+        <Route path="/our-work/maritime" element={<WorkPage />} />
       </Routes>
     </>
   );

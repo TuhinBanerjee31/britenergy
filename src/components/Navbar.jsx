@@ -1,10 +1,12 @@
 import { useState } from "react";
 import "./buttonStyle.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/kpngLogo.png";
+import { infraData, energyData, manufacturingData, oilAndGasData, maritimeData } from "../data/ourWorkData";
 
 const Navbar = () => {
   const [aboutStatus, setAboutStatus] = useState(false);
+
 
   // useEffect(() => {
   //   window.scrollTo(0, 0);
@@ -81,24 +83,24 @@ const Navbar = () => {
         <div className="bg-[#FFFFFF] w-[60%] h-[100%] absolute right-0">
           <div className="h-full flex flex-col md:flex-row justify-center md:justify-around items-center gap-3 md:gap-0">
             <ul className="flex flex-col gap-3">
-              <span className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
+              <Link to={"/our-work/infrastructure"} state={infraData} className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
                 Infrastructure
-              </span>
-              <span className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
+              </Link>
+              <Link to={"/our-work/energy"} state={energyData} className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
                 Energy
-              </span>
-              <span className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
+              </Link>
+              <Link to={"/our-work/manufacturing"} state={manufacturingData} className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
                 Manufacturing
-              </span>
+              </Link>
             </ul>
 
             <ul className="flex flex-col gap-2">
-              <span className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
+              <Link to={"/our-work/oil-gas"} state={oilAndGasData} className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
                 Oil and Gas
-              </span>
-              <span className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
+              </Link>
+              <Link to={"/our-work/maritime"} state={maritimeData} className="text-lg md:text-2xl cursor-pointer border-b-2 px-1 border-[#EBEBEA]">
                 Maritime
-              </span>
+              </Link>
             </ul>
           </div>
         </div>
