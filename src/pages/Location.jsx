@@ -242,8 +242,8 @@ const Location = () => {
                     {item.address}
                   </p>
                   <div className="flex gap-2">
-                    <img src={item.office1} className="h-24 w-auto" />
-                    <img src={item.office2} className="h-24 w-auto" />
+                    <img src={item.office1} className="h-28 w-auto" />
+                    <img src={item.office2} className="h-28 w-auto" />
                   </div>
                 </div>
               </div>
