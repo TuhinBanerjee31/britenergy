@@ -13,7 +13,7 @@ const Faq = () => {
         boldLine={"Clearing out queries"}
         normalLine={"THE BEST WAY TO THE BEST OUTCOMES"}
       />
-      <div className="min-h-screen bg-[#EBEBEB] font-roboto-condensed py-10">
+      <div className="min-h-screen bg-[#f2f8fd] font-roboto-condensed py-10">
         <div className="w-full flex flex-col justify-center items-center px-5 py-20">
           <h3 className="font-light text-5xl md:text-7xl text-center">
             Frequently Asked Questions (FAQ)
@@ -41,7 +41,7 @@ const Faq = () => {
 
             {/* Text Section */}
             <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-              <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+              <div className="bg-[#102a41] text-white p-8 md:rounded-lg flex flex-col justify-center">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                   Let’s Talk
                 </h2>
@@ -52,9 +52,9 @@ const Faq = () => {
                   Need to Reach Us?
                 </h3>
                 <div>
-                <Link to={'/contact'} className="button-48 py-10">
-                  <span className="text">CONTACT US</span>
-                </Link>
+                  <Link to={"/contact"} className="button-48 py-10">
+                    <span className="text">CONTACT US</span>
+                  </Link>
                 </div>
               </div>
             </div>

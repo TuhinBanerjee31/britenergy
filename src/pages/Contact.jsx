@@ -3,11 +3,36 @@ import CustomHeader from "../components/CustomHeader";
 import Footer from "../components/Footer";
 
 const Contact = () => {
-
   const indianStates = [
-    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"  
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal",
   ];
-  
 
   return (
     <>
@@ -20,10 +45,10 @@ const Contact = () => {
         <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row gap-10 p-6 lg:p-12">
           {/* Left Section */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
-            <h3 className="text-3xl font-bold text-gray-800 mb-6 tracking-wider text-center">
+            <h3 className="text-3xl font-bold text-[#184262] mb-6 tracking-wider text-center">
               Head Office
             </h3>
-            <p className="text-gray-700 mb-6 text-center">
+            <p className="text-[#174e75] mb-6 text-center">
               Kingdom Centre Tower, 26th Floor
               <br />
               King Fahd Road, Olaya District, Riyadh 12214
@@ -35,12 +60,12 @@ const Contact = () => {
               <strong>Email:</strong> info@kpng.org
             </p>
 
-            <h3 className="text-3xl font-bold text-gray-800 mt-8 mb-6 tracking-wider text-center">
+            <h3 className="text-3xl font-bold text-[#184262] mt-8 mb-6 tracking-wider text-center">
               Regional Offices
             </h3>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-                <p className="text-gray-700">
+                <p className="text-[#174e75]">
                   <strong className="text-lg">India</strong>
                   <br />
                   1st Floor, HMDA Complex, Dwaraka Nagar, Main Road
@@ -51,13 +76,14 @@ const Contact = () => {
                   <br />
                   <strong>General Enquires:</strong> help@kpng.org
                   <br />
-                  <strong>Partnership Related Enquires:</strong> partner@kpng.org
+                  <strong>Partnership Related Enquires:</strong>{" "}
+                  partner@kpng.org
                   <br />
                   <strong>HR Related Enquires:</strong> hr.india@kpng.org
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-                <p className="text-gray-700">
+                <p className="text-[#174e75]">
                   <strong className="text-lg">South Africa</strong>
                   <br />
                   Nelson Mandela Square, Sandton
@@ -70,7 +96,7 @@ const Contact = () => {
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-                <p className="text-gray-700">
+                <p className="text-[#174e75]">
                   <strong className="text-lg">USA</strong>
                   <br />
                   One World Trade Center, 47th Floor
@@ -87,7 +113,7 @@ const Contact = () => {
 
           {/* Right Section */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+            <h2 className="text-3xl font-bold text-[#184262] mb-8 text-center">
               Contact Us
             </h2>
             <form>
@@ -95,7 +121,7 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-medium text-gray-700 mb-2"
+                    className="block text-sm font-medium text-[#174e75] mb-2"
                   >
                     First Name <span className="text-red-600">*</span>
                   </label>
@@ -109,7 +135,7 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="block text-sm font-medium text-gray-700 mb-2"
+                    className="block text-sm font-medium text-[#174e75] mb-2"
                   >
                     Last Name <span className="text-red-600">*</span>
                   </label>
@@ -125,7 +151,7 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium text-[#174e75] mb-2"
                 >
                   Email <span className="text-red-600">*</span>
                 </label>
@@ -140,14 +166,20 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="state"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium text-[#174e75] mb-2"
                 >
                   State <span className="text-red-600">*</span>
                 </label>
-                <select id="state" className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3" required>
+                <select
+                  id="state"
+                  className="mt-1 block w-full border-gray-300 rounded-lg shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm p-3"
+                  required
+                >
                   <option value="">- Select -</option>
                   {indianStates.map((state, index) => (
-                    <option key={index} value={state}>{state}</option>
+                    <option key={index} value={state}>
+                      {state}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -155,7 +187,7 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="subject"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium text-[#174e75] mb-2"
                 >
                   Subject <span className="text-red-600">*</span>
                 </label>
@@ -170,7 +202,7 @@ const Contact = () => {
               <div className="mb-6">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium text-[#174e75] mb-2"
                 >
                   Message <span className="text-red-600">*</span>
                 </label>
@@ -190,7 +222,7 @@ const Contact = () => {
                 />
                 <label
                   htmlFor="send-copy"
-                  className="ml-2 text-sm text-gray-700"
+                  className="ml-2 text-sm text-[#174e75]"
                 >
                   Send a copy to myself
                 </label>
@@ -198,7 +230,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition duration-300"
+                className="w-full bg-[#184262] text-white py-3 px-6 rounded-lg hover:bg-[#102a41] focus:outline-none focus:ring-4 focus:ring-red-300 transition duration-300"
               >
                 Submit
               </button>
@@ -207,46 +239,45 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-around flex-wrap px-8 py-10">
-        <div className="flex flex-col items-center justify-center text-center py-10">
-          <h3 className="text-3xl font-bold text-gray-800 mb-4">
-            Business Related Inquiries
-          </h3>
-          <p className="text-gray-700">
-            We are always here to help you with your project needs:
-            <br />
-            <strong>Call us:</strong> 224 189 1655
-            <br />
-            <strong>Email us:</strong> partnership@kpng.org
-          </p>
-        </div>
+          <div className="flex flex-col items-center justify-center text-center py-10">
+            <h3 className="text-3xl font-bold text-[#184262] mb-4">
+              Business Related Inquiries
+            </h3>
+            <p className="text-[#174e75]">
+              We are always here to help you with your project needs:
+              <br />
+              <strong>Call us:</strong> 224 189 1655
+              <br />
+              <strong>Email us:</strong> partnership@kpng.org
+            </p>
+          </div>
 
-        <div className="flex flex-col items-center justify-center text-center py-10">
-          <h3 className="text-3xl font-bold text-gray-800 mb-4">
-            General Inquiries
-          </h3>
-          <p className="text-gray-700">
-            For general information about our services or partnerships:
-            <br />
-            <strong>Call us:</strong> 224 189 1656
-            <br />
-            <strong>Email us:</strong> help@kpng.org
-          </p>
-        </div>
+          <div className="flex flex-col items-center justify-center text-center py-10">
+            <h3 className="text-3xl font-bold text-[#184262] mb-4">
+              General Inquiries
+            </h3>
+            <p className="text-[#174e75]">
+              For general information about our services or partnerships:
+              <br />
+              <strong>Call us:</strong> 224 189 1656
+              <br />
+              <strong>Email us:</strong> help@kpng.org
+            </p>
+          </div>
 
-        <div className="flex flex-col items-center justify-center text-center py-10">
-          <h3 className="text-3xl font-bold text-gray-800 mb-4">
-            HR Related Inquiries
-          </h3>
-          <p className="text-gray-700">
-            If you are one of our employees or have a career related enquire:
-            <br />
-            <strong>Call us:</strong> 224 189 1657
-            <br />
-            <strong>Email us:</strong> careers@kpng.org
-          </p>
+          <div className="flex flex-col items-center justify-center text-center py-10">
+            <h3 className="text-3xl font-bold text-[#184262] mb-4">
+              HR Related Inquiries
+            </h3>
+            <p className="text-[#174e75]">
+              If you are one of our employees or have a career related enquire:
+              <br />
+              <strong>Call us:</strong> 224 189 1657
+              <br />
+              <strong>Email us:</strong> careers@kpng.org
+            </p>
+          </div>
         </div>
-        </div>
-
       </div>
 
       <Footer />

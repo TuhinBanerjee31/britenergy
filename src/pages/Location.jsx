@@ -31,7 +31,6 @@ import image26 from "../assets/locationImages/image26.jpg";
 import image27 from "../assets/locationImages/image27.jpg";
 import image28 from "../assets/locationImages/image28.jpg";
 
-
 const Location = () => {
   const asia = [
     {
@@ -179,7 +178,7 @@ const Location = () => {
       />
       <div className="min-h-screen bg-gray-50 font-roboto-condensed pt-10 md:pt-20">
         {/* Continent Tabs */}
-        <div className="flex flex-wrap justify-center gap-4 max-w-screen-lg mx-auto px-4 text-lg md:text-xl font-semibold text-gray-700 mb-8 md:mb-12">
+        <div className="flex flex-wrap justify-center gap-4 max-w-screen-lg mx-auto px-4 text-lg md:text-xl font-semibold text-[#174e75] mb-8 md:mb-12">
           {Object.keys(continents).map((key) => (
             <button
               key={key}
@@ -210,7 +209,7 @@ const Location = () => {
                   aria-expanded={openItem === item.id}
                   onClick={() => toggleAccordion(item.id)}
                 >
-                  <span className="text-lg md:text-xl font-medium text-gray-900">
+                  <span className="text-lg md:text-xl font-medium text-[#102a41]">
                     {item.state}
                   </span>
                   <svg
@@ -264,7 +263,7 @@ const Location = () => {
 
             {/* Text Section */}
             <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-              <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+              <div className="bg-[#102a41] text-white p-8 md:rounded-lg flex flex-col justify-center">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                   Let’s Talk
                 </h2>

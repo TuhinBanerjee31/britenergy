@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="font-roboto-condensed shadow bg-gray-900">
+    <footer className="font-roboto-condensed shadow bg-[#102a41]">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-col gap-10">
@@ -83,7 +83,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-[#174e75] lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           ©2025 Knagz Power and Network-Infrastructure Group. All Rights
           Reserved.

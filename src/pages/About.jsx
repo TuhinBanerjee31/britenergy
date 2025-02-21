@@ -23,7 +23,7 @@ const About = () => {
         normalLine={"Makes sure to leave a positive impact."}
       />
 
-      <div className="min-h-screen bg-[#EBEBEB] font-roboto-condensed py-10">
+      <div className="min-h-screen bg-[#f2f8fd] font-roboto-condensed py-10">
         <div className="min-h-screen w-full flex flex-col justify-center items-center px-5">
           <h1 className="font-light text-5xl md:text-7xl text-center">
             <span className="font-normal">GREAT EXPERIENCES</span> FOR EVERYONE
@@ -344,7 +344,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="py-10 bg-gray-900">
+        <div className="py-10 bg-[#102a41]">
           <div className="flex items-center relative">
             <div className="container mx-auto py-8 grid grid-cols-1 lg:grid-cols-2">
               {/* Image Section */}
@@ -396,7 +396,7 @@ const About = () => {
 
             {/* Text Section */}
             <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-              <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+              <div className="bg-[#102a41] text-white p-8 md:rounded-lg flex flex-col justify-center">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                   Let’s Talk
                 </h2>
