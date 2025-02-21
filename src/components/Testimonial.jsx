@@ -2,10 +2,10 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 font-roboto-condensed">
+    <section className="bg-white dark:bg-[#102a41] font-roboto-condensed">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#102a41] dark:text-white">
             Client Testimonials
           </h2>
           <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
@@ -17,9 +17,9 @@ const Testimonial = () => {
           </p>
         </div>
         <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-[#184262] dark:border-[#174e75]">
             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-[#102a41] dark:text-white">
                 “A Game-Changer in Infrastructure Development”
               </h3>
               <p className="my-4">
@@ -39,9 +39,9 @@ const Testimonial = () => {
               </div>
             </figcaption>
           </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
+          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-[#184262] dark:border-[#174e75]">
             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-[#102a41] dark:text-white">
                 “Exceptional Energy Solutions”
               </h3>
               <p className="my-4">
@@ -61,9 +61,9 @@ const Testimonial = () => {
               </div>
             </figcaption>
           </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-[#184262] dark:border-[#174e75]">
             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-[#102a41] dark:text-white">
                 “Reliable and Professional Team”
               </h3>
               <p className="my-4">
@@ -83,9 +83,9 @@ const Testimonial = () => {
               </div>
             </figcaption>
           </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
+          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-[#184262] dark:border-[#174e75]">
             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-[#102a41] dark:text-white">
                 “Innovative and Client-Centric”
               </h3>
               <p className="my-4">
@@ -108,7 +108,7 @@ const Testimonial = () => {
         {/* <div className="text-center">
           <a
             href="#"
-            className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-[#102a41] focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-[#174e75] dark:bg-[#184262] dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-[#174e75]"
           >
             Show more...
           </a>

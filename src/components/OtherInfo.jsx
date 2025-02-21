@@ -3,7 +3,7 @@ import image1 from "../assets/OtherInfoImages/image1.jpg";
 
 const OtherInfo = () => {
   return (
-    <div className="min-h-[80vh] font-roboto-condensed bg-[#EBEBEB]">
+    <div className="min-h-[80vh] font-roboto-condensed bg-[#f2f8fd]">
       <div className="flex items-center relative md:pt-20 py-10">
         <div className="container mx-auto md:py-8 grid grid-cols-1 lg:grid-cols-2">
           {/* Image Section */}
@@ -16,7 +16,7 @@ const OtherInfo = () => {
           </div>
 
           {/* Text Section */}
-          <div className="bg-gray-900 md:absolute md:w-[60%] md:right-0 flex justify-end py-5">
+          <div className="bg-[#102a41] md:absolute md:w-[60%] md:right-0 flex justify-end py-5">
             <div className="max-w-2xl text-white p-8 md:rounded-l-lg flex flex-col justify-end items-end text-right">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                 National Builders

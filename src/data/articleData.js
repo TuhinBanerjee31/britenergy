@@ -46,7 +46,7 @@ export const articles1 = [
     This solar park is projected to offset thousands of metric tons of carbon dioxide emissions annually, contributing to cleaner air and mitigating the effects of climate change. The reduction in dependence on non-renewable energy sources also enhances energy security and price stability, shielding communities from the volatility of fossil fuel markets. Additionally, the initiative promotes technological innovation and attracts further investments in the renewable energy sector, creating a ripple effect that benefits the broader economy.
   </p>
 
-  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
     "Renewable energy is not just a choice; it is the future. Projects like these pave the way for a sustainable and resilient world."
   </blockquote>
 
@@ -90,7 +90,7 @@ export const articles1 = [
     KPNG’s smart city vision extends to environmental sustainability by reducing carbon footprints and optimizing resource consumption. Smart grids, energy-efficient buildings, and water management systems contribute to sustainable urban development. Additionally, this initiative promotes economic growth by attracting tech-driven investments and generating employment in emerging industries.
   </p>
 
-  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
     "Smart cities are the future, where technology and sustainability merge to create more efficient and livable spaces for everyone."
   </blockquote>
 
@@ -133,7 +133,7 @@ export const articles1 = [
     As part of its global strategy, KPNG remains dedicated to sustainability and corporate responsibility. The company will integrate green initiatives within its new offices, promoting energy efficiency, sustainable practices, and community-driven projects that align with global environmental goals.
   </p>
 
-  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+  <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
     "Expanding into new regions is more than just growth; it's about building strong, meaningful connections that drive innovation and progress."
   </blockquote>
 
@@ -175,7 +175,7 @@ export const articles2 = [
           Green buildings not only contribute to environmental conservation but also drive economic benefits. Energy-efficient buildings significantly reduce utility costs, while eco-friendly developments attract investors committed to sustainable growth.
         </p>
   
-        <blockquote class="border-l-4 border-green-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+        <blockquote class="border-l-4 border-green-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
           "Sustainable construction is not just about reducing impact—it’s about creating a resilient and regenerative built environment."
         </blockquote>
       `,
@@ -211,7 +211,7 @@ export const articles2 = [
           To overcome the intermittent nature of renewable sources, advanced battery storage systems and smart grids are being implemented. These technologies ensure a stable energy supply even when solar and wind conditions are less favorable.
         </p>
   
-        <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+        <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
           "The future of energy is sustainable, and we are proud to be shaping that future with innovative, renewable solutions."
         </blockquote>
       `,
@@ -247,7 +247,7 @@ export const articles2 = [
           Technology is also playing a key role in sustainability. Smart grids, energy-efficient buildings, and intelligent transportation systems are reducing carbon footprints while enhancing urban living standards.
         </p>
   
-        <blockquote class="border-l-4 border-gray-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+        <blockquote class="border-l-4 border-gray-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
           "Innovation in infrastructure is not just about efficiency—it’s about creating a future where technology and sustainability go hand in hand."
         </blockquote>
       `,
@@ -291,7 +291,7 @@ export const articles3 = [
         By embedding sustainability into every aspect of the project, KPNG has contributed to Dubai’s vision of becoming a leader in green infrastructure. The project not only reduces energy consumption but also serves as a model for future developments across the region. This initiative reflects KPNG’s dedication to shaping the cities of tomorrow through innovation and environmental consciousness.
       </p>
   
-      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
         "Sustainable infrastructure is not just about construction; it's about building a future where architecture and nature coexist in harmony."
       </blockquote>
   
@@ -336,7 +336,7 @@ export const articles3 = [
         By replacing fossil-fuel-based electricity generation with clean wind energy, this project significantly reduces carbon emissions. Over its lifetime, the wind farm is expected to prevent millions of metric tons of CO2 from entering the atmosphere. Additionally, by stabilizing energy costs and reducing dependence on imported fuel, it contributes to Brazil’s economic resilience and energy security.
       </p>
   
-      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
         "Renewable energy is more than just a power source—it's the foundation of a sustainable and prosperous future for all."
       </blockquote>
   
@@ -384,7 +384,7 @@ export const articles4 = [
         While energy storage advancements contribute to sustainability, they also raise environmental concerns regarding raw material extraction and battery recycling. Companies are now investing in greener battery alternatives, such as sodium-ion and bio-based batteries, to reduce ecological footprints.
       </p>
   
-      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
         "The future of clean energy relies not just on production, but on our ability to store and distribute it efficiently."
       </blockquote>
   
@@ -434,7 +434,7 @@ export const articles4 = [
         While smart cities promise efficiency and sustainability, concerns around data privacy, cybersecurity, and equitable access remain. Governments and tech firms must collaborate to ensure ethical implementation of digital solutions, prioritizing citizen rights and inclusivity.
       </p>
   
-      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-gray-700">
+      <blockquote class="border-l-4 border-blue-600 pl-4 sm:pl-6 my-6 sm:my-8 italic text-lg sm:text-xl text-[#174e75]">
         "The city of the future isn’t just about technology—it’s about creating inclusive, sustainable, and intelligent environments for all."
       </blockquote>
   

@@ -119,3 +119,78 @@
   position: relative;
 }
 
+
+
+/* From Uiverse.io by Javierrocadev */ 
+.cardCustom {
+  border-radius: 15px;
+  background: #102a41;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardCustom::before {
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 80%;
+  left: -5%;
+  border-radius: 50%;
+  border: 35px solid rgba(255, 255, 255, 0.102);
+  transition: all .8s ease;
+  filter: blur(.5rem);
+}
+
+.textCustom {
+  flex-grow: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.subtitleCustom {
+  font-weight: 300;
+  color: rgba(240, 248, 255, 0.691);
+}
+
+.iconsCustom {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 250px;
+  border-radius: 0px 0px 15px 15px;
+  overflow: hidden;
+}
+
+.btnCustom {
+  border: none;
+  width: 84px;
+  height: 35px;
+  background-color: rgba(247, 234, 234, 0.589);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-iconCustom {
+  width: 25px;
+  height: 25px;
+  stroke: rgb(38, 59, 126);
+}
+
+.btnCustom:hover {
+  background-color: rgb(247, 234, 234);
+}
+
+.cardCustom:hover::before {
+  width: 140px;
+  height: 140px;
+  top: -30%;
+  left: 50%;
+  filter: blur(0rem);
+}
+

@@ -20,7 +20,7 @@ const Project = () => {
             src={projectData.imgUrl}
             className="max-w-sm transition-all hover:scale-105 cursor-pointer w-full sm:w-2/3 md:w-1/2 lg:w-1/3 mx-auto md:mx-0"
           />
-          <h1 className="text-2xl sm:text-3xl md:text-4xl py-3 font-bold text-gray-900 leading-tight text-center md:text-left">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl py-3 font-bold text-[#102a41] leading-tight text-center md:text-left">
             {projectData.venue}
           </h1>
           <p className="text-md sm:text-lg text-red-600 font-semibold mt-2 text-center md:text-left">
@@ -32,7 +32,7 @@ const Project = () => {
               <p className="text-xs text-gray-500 font-semibold uppercase text-center md:text-left">
                 Client
               </p>
-              <p className="text-md sm:text-lg font-bold text-gray-900 text-center md:text-left">
+              <p className="text-md sm:text-lg font-bold text-[#102a41] text-center md:text-left">
                 {projectData.client || "Updating"}
               </p>
             </div>
@@ -40,7 +40,7 @@ const Project = () => {
               <p className="text-xs text-gray-500 font-semibold uppercase text-center md:text-left">
                 Project Status
               </p>
-              <p className="text-md sm:text-lg font-bold text-gray-900 text-center md:text-left">
+              <p className="text-md sm:text-lg font-bold text-[#102a41] text-center md:text-left">
                 {projectData.status || "In Progress"}
               </p>
             </div>
@@ -107,7 +107,7 @@ const Project = () => {
 
             {/* Text Section */}
             <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-              <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+              <div className="bg-[#102a41] text-white p-8 md:rounded-lg flex flex-col justify-center">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                   Let’s Talk
                 </h2>

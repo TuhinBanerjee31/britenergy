@@ -191,13 +191,13 @@ export function ArticlePage() {
         {/* Tags */}
         <div className="mt-8 sm:mt-12 pt-4 sm:pt-6 border-t">
           <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-            <span className="text-gray-700 font-medium text-sm sm:text-base">
+            <span className="text-[#174e75] font-medium text-sm sm:text-base">
               Tags:
             </span>
             {["Technology", "Innovation", "Future", "AI"].map((tag) => (
               <span
                 key={tag}
-                className="px-2 sm:px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-sm hover:bg-gray-200 cursor-pointer transition-colors"
+                className="px-2 sm:px-3 py-1 bg-gray-100 text-[#174e75] rounded-full text-xs sm:text-sm hover:bg-gray-200 cursor-pointer transition-colors"
               >
                 {tag}
               </span>

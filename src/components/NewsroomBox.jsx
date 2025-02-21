@@ -9,7 +9,12 @@ import {
 } from "lucide-react";
 import imageDown from "../assets/SliderAreaImages/image1.jpg";
 // import image2 from "../assets/newsroomImages/image2.jpg"
-import { articles1, articles2, articles3, articles4 } from "../data/articleData";
+import {
+  articles1,
+  articles2,
+  articles3,
+  articles4,
+} from "../data/articleData";
 
 const NewsroomBox = () => {
   const [email, setEmail] = useState("");
@@ -146,7 +151,7 @@ const NewsroomBox = () => {
   // ];
 
   return (
-    <div className="min-h-screen bg-[#EBEBEB] font-roboto-condensed">
+    <div className="min-h-screen bg-[#f2f8fd] font-roboto-condensed">
       <div className="min-h-[75vh] w-full flex flex-col justify-center items-center px-5">
         <h1 className="font-light text-5xl md:text-7xl text-center uppercase">
           <span className="font-normal">Blog & News</span>
@@ -200,7 +205,7 @@ const NewsroomBox = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <div className="flex items-center justify-between mb-8 sm:mb-12">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#102a41]">
               Latest News
             </h2>
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -233,7 +238,7 @@ const NewsroomBox = () => {
                       {article.date}
                     </div>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-[#102a41] mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
                     {article.title}
                   </h3>
                   <p className="text-gray-600 line-clamp-3 mb-4 text-sm sm:text-base">
@@ -254,7 +259,7 @@ const NewsroomBox = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <div className="flex items-center justify-between mb-8 sm:mb-12">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#102a41]">
               Recent Insights
             </h2>
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -287,7 +292,7 @@ const NewsroomBox = () => {
                       {article.date}
                     </div>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-[#102a41] mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
                     {article.title}
                   </h3>
                   <p className="text-gray-600 line-clamp-3 mb-4 text-sm sm:text-base">
@@ -308,7 +313,7 @@ const NewsroomBox = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <div className="flex items-center justify-between mb-8 sm:mb-12">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#102a41]">
               Project Highlights
             </h2>
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -341,7 +346,7 @@ const NewsroomBox = () => {
                       {article.date}
                     </div>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-[#102a41] mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
                     {article.title}
                   </h3>
                   <p className="text-gray-600 line-clamp-3 mb-4 text-sm sm:text-base">
@@ -362,7 +367,7 @@ const NewsroomBox = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <div className="flex items-center justify-between mb-8 sm:mb-12">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#102a41]">
               Industry Trends
             </h2>
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -395,7 +400,7 @@ const NewsroomBox = () => {
                       {article.date}
                     </div>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-[#102a41] mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors">
                     {article.title}
                   </h3>
                   <p className="text-gray-600 line-clamp-3 mb-4 text-sm sm:text-base">
@@ -444,7 +449,7 @@ const NewsroomBox = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
                   required
-                  className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 bg-white/90 backdrop-blur-sm border border-transparent focus:border-blue-300 focus:ring-2 focus:ring-blue-300 outline-none transition-all"
+                  className="flex-1 px-4 py-3 rounded-lg text-[#102a41] placeholder-gray-500 bg-white/90 backdrop-blur-sm border border-transparent focus:border-blue-300 focus:ring-2 focus:ring-blue-300 outline-none transition-all"
                 />
                 <button
                   type="submit"
@@ -474,7 +479,7 @@ const NewsroomBox = () => {
 
           {/* Text Section */}
           <div className="md:absolute max-w-screen-md right-[20%] top-[25%]">
-            <div className="bg-gray-900 text-white p-8 md:rounded-lg flex flex-col justify-center">
+            <div className="bg-[#102a41] text-white p-8 md:rounded-lg flex flex-col justify-center">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-4">
                 Let’s Talk
               </h2>

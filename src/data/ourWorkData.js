@@ -24,12 +24,28 @@ export const infraData = {
     post: "VICE PRESIDENT, INDUSTRIAL",
     address: ["12851 Manchester Road", "St. Louis, MO 62131"],
   },
+  solutions: [
+    {
+      title: "Telecommunications Infrastructure",
+      sub: "KPNG provides advanced Telecommunications Infrastructure Solutions, ensuring seamless connectivity and robust network systems for modern cities and industries. The company specializes in designing, deploying, and maintaining high-speed communication networks, including fiber-optic systems, 5G infrastructure, and smart city integrations.",
+    },
+    {
+      title: "Construction & Civil Engineering",
+      sub: "KPNG’s Construction & Civil Engineering division specializes in designing and developing large-scale infrastructure projects that support urban growth and industrial expansion. The company has extensive expertise in road and highway construction, high-rise buildings, industrial complexes, and urban development projects. With a strong focus on durability, functionality, and sustainability, KPNG integrates advanced engineering techniques and eco-friendly practices into every project.",
+    },
+    {
+      title: "Smart Infrastructure & IoT Solutions",
+      sub: "KPNG’s Construction & Civil Engineering division specializes in designing and developing large-scale infrastructure projects that support urban growth and industrial expansion. The company has extensive expertise in road and highway construction, high-rise buildings, industrial complexes, and urban development projects. With a strong focus on durability, functionality, and sustainability, KPNG integrates advanced engineering techniques and eco-friendly practices into every project.",
+    },
+  ],
   contentImg: image2,
   title: "Why us in Infrastructure ?",
-  p1: `When it comes to infrastructure, reliability, innovation, and sustainability are critical. Knagz Power and Network-Infrastructure Group (KPNG) has established itself as a trusted global leader, consistently delivering world-class infrastructure solutions that empower cities, businesses, and communities.`,
-  p2: `<b>Proven Track Record of Excellence:</b> With over a decade of experience, KPNG has successfully completed transformative infrastructure projects across 20+ countries. From major transportation systems like the Riyadh Metro and London Crossrail to landmark urban developments such as Jeddah Economic City, KPNG has demonstrated its ability to execute large-scale, high-impact projects with precision and efficiency.`,
-  p3: `<b>Global Presence, Local Expertise:</b> While KPNG operates on a global scale, they maintain a strong local presence in each region. Their teams understand the unique challenges and regulatory landscapes of different countries, ensuring projects align with local requirements while upholding international standards. With offices in key markets such as Riyadh, London, New York, and Singapore, KPNG seamlessly navigates diverse environments.`,
-  p4: `<b>Industry Recognition and Certifications:</b> KPNG’s dedication to quality and excellence has earned them prestigious industry certifications and awards, including: ISO 9001:2015 – Quality Management Certification ISO 14001:2015 – Environmental Management Certification ISO 45001:2018 – Occupational Health and Safety Certification Global Infrastructure Excellence Award – Recognizing outstanding project execution Sustainability Leadership Award – Honoring KPNG’s contribution to green infrastructure <br></br>These accolades reinforce KPNG’s reputation as a reliable and industry-leading infrastructure developer.`,
+  spans: [
+    `<b>Proven Excellence:</b> With over a decade of success, KPNG has delivered high-quality infrastructure and energy projects across 20+ countries. From metro systems to smart cities, the company ensures innovation, sustainability, and efficiency through cutting-edge technology and strategic partnerships.`,
+    `<b>Innovative Approach:</b> KPNG leverages AI, IoT, and automation to enhance infrastructure and energy solutions. By integrating smart cities, 5G, and renewable energy, it ensures optimized operations, reduced costs, and future-ready developments.`,
+    `<b>Sustainable Solutions:</b> KPNG prioritizes eco-friendly, energy-efficient infrastructure, incorporating renewable energy, green materials, and smart grids. Its projects, like Dubai Expo 2020’s carbon-neutral infrastructure, promote long-term environmental benefits.`,
+    `<b>Global Reach:</b> Operating in 20+ countries, KPNG has contributed to major projects like Riyadh Metro, London Crossrail, and Lumina Smart City. The company adapts to local markets while maintaining international quality standards.`,
+  ],
 };
 
 export const energyData = {

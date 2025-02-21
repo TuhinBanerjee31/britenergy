@@ -132,7 +132,7 @@ const Accordion = () => {
           <h2 id={`accordion-flush-heading-${item.id}`}>
             <button
               type="button"
-              className="flex items-center justify-between w-full py-5 font-medium text-gray-900 border-b border-gray-700 gap-3"
+              className="flex items-center justify-between w-full py-5 font-medium text-[#102a41] border-b border-[#174e75] gap-3"
               aria-expanded={openItem === item.id}
               aria-controls={`accordion-flush-body-${item.id}`}
               onClick={() => toggleAccordion(item.id)}
@@ -163,7 +163,7 @@ const Accordion = () => {
             }`}
             aria-labelledby={`accordion-flush-heading-${item.id}`}
           >
-            <div className="py-5 border-b border-gray-200 dark:border-gray-700">
+            <div className="py-5 border-b border-gray-200 dark:border-[#174e75]">
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 {item.answer}
               </p>
