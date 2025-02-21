@@ -24,7 +24,7 @@ const WorkPage = () => {
 
       <Cheif data={data.cheif} />
 
-      <div className="font-roboto-condensed max-w-screen-2xl mx-auto pt-10 pb-20">
+      <div className="font-roboto-condensed max-w-screen-2xl mx-auto pt-10 pb-20 px-4">
       <h1 className="text-5xl md:text-6xl text-[#102a41] pb-5 pl-8 md:pl-20">Our Solutions</h1>
       <div className="flex gap-3 flex-wrap justify-center">
       {data.solutions && data.solutions.map((item, index) => (
