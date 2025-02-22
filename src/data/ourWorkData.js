@@ -63,12 +63,28 @@ export const energyData = {
     post: "VICE PRESIDENT, ENERGY SOLUTIONS",
     address: ["245 Energy Park Drive", "Houston, TX 77001"],
   },
+  solutions: [
+    {
+      title: "Renewable Energy Solutions",
+      sub: "KPNG Energy Solutions specializes in the development and implementation of renewable energy projects, including solar, wind, and hydroelectric power systems. The company provides end-to-end solutions for clean energy generation, storage, and distribution, ensuring sustainability and efficiency for businesses, industries, and communities.",
+    },
+    {
+      title: "Power Generation & Grid Management",
+      sub: "KPNG Energy Solutions offers advanced power generation and grid management services, optimizing electricity distribution for maximum reliability and efficiency. The company specializes in smart grid technologies, backup power systems, and large-scale energy infrastructure, ensuring uninterrupted power supply for urban and industrial applications.",
+    },
+    {
+      title: "Energy Efficiency & Sustainability Consulting",
+      sub: "KPNG Energy Solutions provides expert consulting services to enhance energy efficiency and sustainability for businesses and municipalities. The company helps clients optimize energy consumption, integrate eco-friendly solutions, and reduce carbon footprints through cutting-edge technologies and strategic planning.",
+    },
+  ],
   contentImg: image4,
   title: "Why Choose Us for Energy Solutions?",
-  p1: `Energy reliability, sustainability, and efficiency are at the core of our mission. Knagz Energy Solutions (KES) is a global leader in energy infrastructure, providing innovative and sustainable solutions to power businesses, cities, and industries.`,
-  p2: `<b>Proven Expertise in Energy:</b> With over 15 years of experience, KES has delivered transformative energy projects in 25+ countries. From large-scale solar farms and wind energy installations to advanced power grid systems, KES ensures energy security through innovation and precision engineering.`,
-  p3: `<b>Global Reach, Local Commitment:</b> KES operates on a global scale while maintaining strong local partnerships. Our teams understand regional energy challenges and regulatory landscapes, ensuring project success in compliance with both local and international standards. Our offices in Houston, Berlin, Dubai, and Tokyo enable seamless project execution worldwide.`,
-  p4: `<b>Industry Accolades and Certifications:</b> KES's commitment to excellence has earned numerous industry recognitions, including: ISO 50001:2018 – Energy Management Certification LEED Platinum Certification – Recognizing sustainable building solutions Renewable Energy Innovation Award – Honoring KES’s leadership in green energy Smart Grid Excellence Award – Recognizing advancements in energy distribution <br></br>These achievements reinforce KES’s reputation as a leading provider of energy solutions worldwide.`,
+  spans: [
+    "<b>Proven Expertise:</b> With a strong track record in renewable energy and power infrastructure, KPNG Energy Solutions has successfully deployed sustainable energy projects across 20+ countries. From solar farms to smart grids, the company delivers innovative and reliable solutions tailored to modern energy needs.",
+    "<b>Cutting-Edge Technology:</b> KPNG Energy Solutions integrates AI, IoT, and automation into energy management, ensuring efficient power distribution, reduced operational costs, and optimized performance. Its smart grid technologies and energy storage solutions pave the way for the future of clean energy.",
+    "<b>Commitment to Sustainability:</b> KPNG Energy Solutions prioritizes eco-friendly practices, focusing on carbon-neutral energy generation, green building integrations, and energy-efficient systems. Projects like the Dubai Solar Park showcase its dedication to reducing environmental impact while maximizing efficiency.",
+    "<b>Global Impact:</b> Operating in 20+ countries, KPNG Energy Solutions has played a vital role in major energy projects such as the European Smart Grid Initiative, African Renewable Energy Expansion, and Asia-Pacific Sustainable Power Networks. The company adapts to regional energy demands while maintaining world-class standards.",
+  ],
 };
 
 export const manufacturingData = {
@@ -86,12 +102,28 @@ export const manufacturingData = {
     post: "VICE PRESIDENT, MANUFACTURING",
     address: ["4567 Industrial Way", "Detroit, MI 48201"],
   },
+  solutions: [
+    {
+      title: "Advanced Industrial Manufacturing",
+      sub: "KPNG Manufacturing specializes in cutting-edge industrial production solutions, leveraging automation, AI, and precision engineering. The company delivers high-quality manufacturing processes for automotive, aerospace, electronics, and heavy industries, ensuring efficiency, scalability, and innovation.",
+    },
+    {
+      title: "Smart Factory & Industry 4.0 Solutions",
+      sub: "KPNG integrates Industry 4.0 technologies to create intelligent, data-driven manufacturing environments. Through IoT-enabled machinery, real-time analytics, and robotics, the company enhances productivity, reduces costs, and ensures seamless operations in modern production facilities.",
+    },
+    {
+      title: "Sustainable Manufacturing & Eco-Friendly Materials",
+      sub: "KPNG prioritizes sustainability in manufacturing by adopting energy-efficient processes, recyclable materials, and green production techniques. With a strong commitment to reducing carbon footprints, the company ensures compliance with global environmental standards while delivering high-performance products.",
+    },
+  ],
   contentImg: image6,
   title: "Why Choose Us for Manufacturing?",
-  p1: `In the fast-evolving manufacturing sector, efficiency, precision, and sustainability are paramount. Knagz Manufacturing Solutions (KMS) is a globally recognized leader, providing cutting-edge manufacturing capabilities that empower industries worldwide.`,
-  p2: `<b>Decades of Excellence:</b> With over 20 years of experience, KMS has delivered state-of-the-art manufacturing solutions in 30+ countries. From automotive to aerospace, electronics to heavy industries, we have successfully executed complex manufacturing projects with precision and efficiency.`,
-  p3: `<b>Global Reach, Local Expertise:</b> Operating on an international scale, KMS maintains a strong local presence in key markets. Our teams possess deep knowledge of regional regulations and industry standards, ensuring seamless project execution while maintaining compliance with global benchmarks.`,
-  p4: `<b>Industry Recognitions and Certifications:</b> KMS’s commitment to quality and innovation has earned prestigious certifications and awards, including: ISO 9001:2015 – Quality Management Certification ISO 14001:2015 – Environmental Management Certification Lean Manufacturing Excellence Award – Recognizing efficiency in production processes Advanced Manufacturing Innovation Award – Honoring technological advancements in manufacturing <br></br>These recognitions reaffirm KMS’s position as a trusted leader in the manufacturing industry.`,
+  spans: [
+    "<b>Proven Excellence:</b> With years of expertise in industrial production, KPNG Manufacturing has delivered high-quality manufacturing solutions across 20+ countries. From automotive components to aerospace engineering, the company ensures precision, scalability, and efficiency through advanced technology and strategic partnerships.",
+    "<b>Innovative Approach:</b> KPNG Manufacturing leverages AI, IoT, and automation to revolutionize production processes. By integrating smart factories, robotics, and real-time analytics, it enhances productivity, reduces costs, and ensures future-ready manufacturing solutions.",
+    "<b>Sustainable Solutions:</b> KPNG prioritizes eco-friendly manufacturing, utilizing energy-efficient production methods, recyclable materials, and green supply chains. Its commitment to sustainability supports carbon-neutral production while maintaining high-performance standards.",
+    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Manufacturing has contributed to major projects in automotive, aerospace, and electronics industries. The company adapts to regional market needs while upholding world-class manufacturing excellence.",
+  ],
 };
 
 export const oilAndGasData = {
@@ -109,12 +141,28 @@ export const oilAndGasData = {
     post: "VICE PRESIDENT, OIL & GAS",
     address: ["789 Energy Lane", "Houston, TX 77002"],
   },
+  solutions: [
+    {
+      title: "Upstream Exploration & Production",
+      sub: "KPNG Oil & Gas specializes in upstream operations, including oil and gas exploration, drilling, and production. The company utilizes advanced geological surveying, seismic technology, and enhanced recovery methods to maximize extraction efficiency and resource optimization.",
+    },
+    {
+      title: "Midstream Transportation & Storage",
+      sub: "KPNG provides midstream solutions that ensure safe and efficient transportation of oil and gas through pipelines, LNG terminals, and storage facilities. The company implements cutting-edge monitoring systems, leak detection technologies, and asset management strategies to enhance operational reliability.",
+    },
+    {
+      title: "Downstream Refining & Petrochemicals",
+      sub: "KPNG Oil & Gas delivers high-quality refining and petrochemical solutions, transforming crude oil and natural gas into valuable products such as fuels, lubricants, and industrial chemicals. The company focuses on energy efficiency, sustainability, and compliance with international environmental standards.",
+    },
+  ],
   contentImg: image8,
   title: "Why Choose Us for Oil & Gas?",
-  p1: `In the dynamic oil and gas sector, efficiency, sustainability, and safety are critical. Knagz Energy Solutions (KES) has established itself as a global leader, delivering reliable and high-performing energy solutions that power industries and communities worldwide.`,
-  p2: `<b>Decades of Proven Experience:</b> With over 25 years in the industry, KES has successfully executed major oil and gas projects in 40+ countries. From offshore drilling platforms to state-of-the-art refineries, we provide comprehensive solutions tailored to industry needs.`,
-  p3: `<b>Global Operations, Local Expertise:</b> KES operates on a global scale while maintaining strong regional expertise. Our teams navigate complex regulatory frameworks and environmental standards, ensuring projects meet both local and international compliance requirements seamlessly.`,
-  p4: `<b>Recognized Industry Leadership:</b> KES’s dedication to innovation and excellence has earned numerous certifications and accolades, including: ISO 9001:2015 – Quality Management Certification API Q1 – Advanced Quality Management for Oil & Gas Operations Environmental Stewardship Award – Recognizing sustainability efforts in energy production Offshore Engineering Excellence Award – Honoring breakthroughs in offshore exploration <br></br>These industry recognitions reinforce KES’s reputation as a trusted leader in oil and gas development.`,
+  spans: [
+    "<b>Proven Excellence:</b> With decades of experience, KPNG Oil & Gas has successfully executed exploration, production, and refining projects across 20+ countries. From offshore drilling to petrochemical plants, the company ensures efficiency, innovation, and sustainability in every operation.",
+    "<b>Innovative Approach:</b> KPNG leverages cutting-edge technologies, including AI-driven reservoir analysis, automated drilling systems, and IoT-based pipeline monitoring. These innovations enhance safety, optimize production, and reduce operational costs across the oil and gas value chain.",
+    "<b>Sustainable Solutions:</b> KPNG is committed to reducing environmental impact by integrating carbon capture technologies, energy-efficient refining processes, and eco-friendly drilling techniques. The company prioritizes sustainability while maintaining high-performance energy production.",
+    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Oil & Gas has played a key role in major energy projects, including offshore platforms in the Middle East, LNG terminals in Asia, and refining hubs in Europe. The company adapts to regional market needs while adhering to global industry standards.",
+  ],
 };
 
 export const maritimeData = {
@@ -132,10 +180,26 @@ export const maritimeData = {
     post: "VICE PRESIDENT, MARITIME",
     address: ["321 Oceanic Drive", "New Orleans, LA 70130"],
   },
+  solutions: [
+    {
+      title: "Maritime Infrastructure & Port Development",
+      sub: "KPNG Maritime specializes in designing, constructing, and modernizing ports, shipyards, and marine terminals. The company delivers cutting-edge infrastructure solutions that enhance global trade, logistics, and naval operations, ensuring efficiency, security, and sustainability in maritime transport.",
+    },
+    {
+      title: "Shipbuilding & Marine Engineering",
+      sub: "KPNG Maritime offers world-class shipbuilding and marine engineering services, developing advanced vessels for commercial, industrial, and defense applications. The company integrates automation, AI, and eco-friendly materials to optimize vessel performance, fuel efficiency, and operational safety.",
+    },
+    {
+      title: "Offshore & Marine Solutions",
+      sub: "KPNG Maritime provides comprehensive offshore solutions, including oil and gas platforms, wind energy installations, and deep-sea exploration support. With expertise in marine logistics and subsea engineering, the company ensures safe, sustainable, and innovative offshore operations.",
+    },
+  ],
   contentImg: image10,
   title: "Why Choose Us for Maritime?",
-  p1: `In the ever-evolving maritime industry, efficiency, innovation, and sustainability are essential. Knagz Maritime Solutions (KMS) is a recognized global leader, delivering cutting-edge solutions that power the shipping, port, and offshore industries worldwide.`,
-  p2: `<b>Decades of Excellence in Maritime:</b> With over 30 years of experience, KMS has successfully executed major maritime projects in 50+ countries. From advanced shipbuilding and offshore engineering to modernizing port infrastructure, our expertise ensures seamless and high-performing maritime operations.`,
-  p3: `<b>Global Operations, Local Expertise:</b> KMS operates across key maritime hubs worldwide while maintaining strong local partnerships. Our teams navigate complex regulatory frameworks and environmental standards, ensuring full compliance with both local and international maritime laws.`,
-  p4: `<b>Recognized Industry Leadership:</b> KMS’s dedication to excellence has earned prestigious certifications and accolades, including: ISO 9001:2015 – Quality Management Certification ISO 14001:2015 – Environmental Management Certification Marine Engineering Excellence Award – Recognizing breakthroughs in ship design and port modernization Sustainable Shipping Innovation Award – Honoring green shipping initiatives <br></br>These recognitions reinforce KMS’s reputation as a trusted leader in maritime infrastructure and innovation.`,
+  spans: [
+    "<b>Proven Excellence:</b> With a strong track record in maritime infrastructure, KPNG Maritime has successfully delivered port development, shipbuilding, and offshore solutions across 20+ countries. From smart ports to advanced vessels, the company ensures efficiency, innovation, and sustainability in the maritime sector.",
+    "<b>Innovative Approach:</b> KPNG Maritime leverages AI, automation, and IoT to optimize shipbuilding, port operations, and offshore energy projects. By integrating digital twin technology, autonomous vessels, and smart logistics, the company enhances safety, efficiency, and cost-effectiveness.",
+    "<b>Sustainable Solutions:</b> KPNG Maritime prioritizes eco-friendly practices by developing energy-efficient ships, green ports, and offshore renewable energy installations. The company is committed to reducing carbon emissions through sustainable shipbuilding and clean marine fuels.",
+    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Maritime has contributed to major projects such as next-generation shipbuilding in Europe, offshore wind farms in Asia, and port modernization in the Middle East. The company adapts to regional market demands while maintaining international maritime standards."
+]
 };
