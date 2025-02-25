@@ -1,11 +1,28 @@
-import React from "react";
+
 
 const FancyCard = (props) => {
   return (
-    <div className="cardCustom max-w-md min-h-fit font-roboto-condensed p-5">
+    <div className="cardCustom max-w-screen-xl min-h-fit font-roboto-condensed p-5">
       <div className="textCustom">
-        <span className="text-2xl pb-3 font-medium">{props.data.title}</span>
-        <p className="subtitleCustom text-base">{props.data.sub}</p>
+        <span className="text-2xl pb-3 font-medium">{props.title}</span>
+        <p className="subtitleCustom text-base">{props.sub}</p>
+      </div>
+
+      <div className="flex py-20 justify-between flex-col md:flex-row gap-10">
+        <div className="flex flex-col justify-center items-center">
+        <img src={props.ilus[0]} className="w-52 h-52" />
+        <p className="subtitleCustom text-base px-5">{props.p[0]}</p>
+        </div>
+        
+        <div className="flex flex-col justify-center items-center">
+        <img src={props.ilus[1]} className="w-52 h-52" />
+        <p className="subtitleCustom text-base px-5">{props.p[1]}</p>
+        </div>
+        
+        <div className="flex flex-col justify-center items-center">
+        <img src={props.ilus[2]} className="w-52 h-52" />
+        <p className="subtitleCustom text-base px-5">{props.p[2]}</p>
+        </div>
       </div>
       {/* <div className="icons">
         <a className="btn" href="#">

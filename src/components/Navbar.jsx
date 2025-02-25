@@ -20,11 +20,11 @@ const Navbar = () => {
       onMouseLeave={() => setAboutStatus(false)}
     >
       <div className="max-w-screen-2xl flex flex-col items-center mx-auto px-2 md:px-10 pt-3 pb-3">
-        <NavLink to={"/recognition"} className="text-xs self-end px-2 py-2">
+        <NavLink to={"/recognition"} className="text-xs self-end px-2 py-2 font-semibold">
           RECOGNITION
         </NavLink>
         <div className="w-[100%] border-b border-[#EBEBEA]"></div>
-        <div className="flex justify-between items-center w-full px-2 py-4">
+        <div className="flex justify-between items-center w-full px-2 py-4 font-semibold">
           <NavLink to={"/"}>
             <img src={logo} className="w-16 md:w-32" />
           </NavLink>
