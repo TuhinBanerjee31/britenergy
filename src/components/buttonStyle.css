@@ -189,8 +189,8 @@
 .cardCustom:hover::before {
   width: 140px;
   height: 140px;
-  top: -30%;
-  left: 50%;
+  top: -10%;
+  left: 90%;
   filter: blur(0rem);
 }
 

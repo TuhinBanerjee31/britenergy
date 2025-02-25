@@ -5,11 +5,11 @@ import { projectsData } from "../data/allProjectsData";
 
 const ProjectSlider = () => {
   useEffect(() => {
-    const slider = new Glide(".glide-04", {
+    const slider = new Glide(".glide-01", {
       type: "carousel",
       focusAt: "center",
       perView: 3,
-      autoplay: 3500,
+      autoplay: 3000,
       animationDuration: 700,
       gap: 24,
       classNames: {
@@ -34,18 +34,20 @@ const ProjectSlider = () => {
 
   return (
     <div className="px-10">
-      <h2 className="text-3xl uppercase py-5 text-[#102a41] font-medium">Our Projects</h2>
-      {/*<!-- Component: Carousel with controls outside --> */}
-      <div className="glide-04 relative w-full">
+      <h2 className="text-3xl uppercase py-8 text-[#102a41] font-medium text-center">
+      Our Infrastructure Projects
+      </h2>
+
+      <div className="glide-01 relative max-w-screen-xl mx-auto">
         {/*    <!-- Slides --> */}
-        <div className="overflow-hidden" data-glide-el="track">
+        <div
+          className="overflow-hidden"
+          data-glide-el="track"
+        >
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             {projectsData.map((item) => (
               <Link to={item.redirect} state={item} key={item.id}>
-                <img
-                  src={item.imgUrl}
-                  className="h-60 w-96"
-                />
+                <img src={item.imgUrl} className="w-[30rem] h-72" />
                 <p className="p-3 font-medium text-[#102a41]">{item.venue}</p>
               </Link>
             ))}
@@ -53,7 +55,7 @@ const ProjectSlider = () => {
         </div>
         {/*    <!-- Controls --> */}
         <div
-          className="flex w-full items-center justify-center gap-2 p-4"
+          className="absolute left-0 top-1/2 flex h-0 w-full items-center justify-between px-4 "
           data-glide-el="controls"
         >
           <button
@@ -100,7 +102,8 @@ const ProjectSlider = () => {
           </button>
         </div>
       </div>
-      {/*<!-- End Carousel with controls outside --> */}
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
     </div>
   );
 };
