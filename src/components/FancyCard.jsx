@@ -2,7 +2,7 @@
 
 const FancyCard = (props) => {
   return (
-    <div className="cardCustom max-w-screen-xl min-h-fit font-roboto-condensed p-5">
+    <div className="sticky top-0 cardCustom max-w-screen-xl min-h-fit font-roboto-condensed p-5">
       <div className="textCustom">
         <span className="text-2xl pb-3 font-medium">{props.title}</span>
         <p className="subtitleCustom text-base">{props.sub}</p>
@@ -10,7 +10,7 @@ const FancyCard = (props) => {
 
       <div className="flex py-20 justify-between flex-col md:flex-row gap-10">
         <div className="flex flex-col justify-center items-center">
-        <img src={props.ilus[0]} className="w-52 h-52" />
+        <img src={props.ilus[0]} className="w-auto h-52" />
         <p className="subtitleCustom text-base px-5">{props.p[0]}</p>
         </div>
         
