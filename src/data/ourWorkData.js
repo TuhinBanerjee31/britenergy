@@ -9,6 +9,71 @@ import image8 from "../assets/ourWorkImages/image8.jpg";
 import image9 from "../assets/ourWorkImages/image9.jpg";
 import image10 from "../assets/ourWorkImages/image10.jpg";
 
+import ilus1 from "../assets/ourWorkImages/image1.png"
+import ilus2 from "../assets/ourWorkImages/image2.png"
+import ilus3 from "../assets/ourWorkImages/image3.png"
+import ilus4 from "../assets/ourWorkImages/image4.png"
+import ilus5 from "../assets/ourWorkImages/image5.png"
+import ilus6 from "../assets/ourWorkImages/image6.png"
+import ilus7 from "../assets/ourWorkImages/image7.png"
+import ilus8 from "../assets/ourWorkImages/image8.png"
+import ilus9 from "../assets/ourWorkImages/image9.png"
+import ilus10 from "../assets/ourWorkImages/image10.png"
+import ilus11 from "../assets/ourWorkImages/image11.png"
+import ilus12 from "../assets/ourWorkImages/image12.png"
+import ilus13 from "../assets/ourWorkImages/image13.png"
+import ilus14 from "../assets/ourWorkImages/image14.png"
+import ilus15 from "../assets/ourWorkImages/image15.png"
+
+import ilus16 from "../assets/ourWorkImages/image10.png"
+import ilus17 from "../assets/ourWorkImages/image17.png"
+import ilus18 from "../assets/ourWorkImages/image18.png"
+import ilus19 from "../assets/ourWorkImages/image19.png"
+import ilus20 from "../assets/ourWorkImages/image20.png"
+import ilus21 from "../assets/ourWorkImages/image21.png"
+import ilus22 from "../assets/ourWorkImages/image12.png"
+import ilus23 from "../assets/ourWorkImages/image23.png"
+import ilus24 from "../assets/ourWorkImages/image24.png"
+import ilus25 from "../assets/ourWorkImages/image25.png"
+import ilus26 from "../assets/ourWorkImages/image26.png"
+import ilus27 from "../assets/ourWorkImages/image27.png"
+
+import ilus28 from "../assets/ourWorkImages/image28.png"
+import ilus29 from "../assets/ourWorkImages/image29.png"
+import ilus30 from "../assets/ourWorkImages/image30.png"
+import ilus31 from "../assets/ourWorkImages/image31.png"
+import ilus32 from "../assets/ourWorkImages/image32.png"
+import ilus33 from "../assets/ourWorkImages/image33.png"
+import ilus34 from "../assets/ourWorkImages/image34.png"
+import ilus35 from "../assets/ourWorkImages/image35.png"
+import ilus36 from "../assets/ourWorkImages/image36.png"
+import ilus37 from "../assets/ourWorkImages/image37.png"
+import ilus38 from "../assets/ourWorkImages/image38.png"
+import ilus39 from "../assets/ourWorkImages/image39.png"
+
+import ilus40 from "../assets/ourWorkImages/image30.png"
+import ilus41 from "../assets/ourWorkImages/image31.png"
+import ilus42 from "../assets/ourWorkImages/image32.png"
+import ilus43 from "../assets/ourWorkImages/image33.png"
+import ilus44 from "../assets/ourWorkImages/image34.png"
+import ilus45 from "../assets/ourWorkImages/image35.png"
+import ilus46 from "../assets/ourWorkImages/image36.png"
+import ilus47 from "../assets/ourWorkImages/image37.png"
+import ilus48 from "../assets/ourWorkImages/image38.png"
+import ilus49 from "../assets/ourWorkImages/image39.png"
+import ilus50 from "../assets/ourWorkImages/image10.png"
+import ilus51 from "../assets/ourWorkImages/image11.png"
+
+import ilus52 from "../assets/ourWorkImages/image12.png"
+import ilus53 from "../assets/ourWorkImages/image13.png"
+import ilus54 from "../assets/ourWorkImages/image14.png"
+import ilus55 from "../assets/ourWorkImages/image15.png"
+import ilus56 from "../assets/ourWorkImages/image10.png"
+import ilus57 from "../assets/ourWorkImages/image17.png"
+import ilus58 from "../assets/ourWorkImages/image18.png"
+import ilus59 from "../assets/ourWorkImages/image19.png"
+import ilus60 from "../assets/ourWorkImages/image20.png"
+
 export const infraData = {
   bgImg: image1,
   boldLine: "Our Work",
@@ -26,26 +91,85 @@ export const infraData = {
   },
   solutions: [
     {
-      title: "Telecommunications Infrastructure",
-      sub: "KPNG provides advanced Telecommunications Infrastructure Solutions, ensuring seamless connectivity and robust network systems for modern cities and industries. The company specializes in designing, deploying, and maintaining high-speed communication networks, including fiber-optic systems, 5G infrastructure, and smart city integrations.",
+      title: "Transportation Infrastructure",
+      sub: "We design and develop high-performance road networks, highways, and bridges, improving mobility and connectivity across regions. Our expertise includes:",
+      p: ['Expressways & Highways – Facilitating smooth traffic flow with modern road infrastructure.', 'Rail & Metro Networks – Advanced rail systems for efficient public transportation.', ' Airport Infrastructure – Runways, terminals, and cargo facilities to support global travel.'],
+      ilus: [ilus1, ilus2, ilus3],
     },
     {
-      title: "Construction & Civil Engineering",
-      sub: "KPNG’s Construction & Civil Engineering division specializes in designing and developing large-scale infrastructure projects that support urban growth and industrial expansion. The company has extensive expertise in road and highway construction, high-rise buildings, industrial complexes, and urban development projects. With a strong focus on durability, functionality, and sustainability, KPNG integrates advanced engineering techniques and eco-friendly practices into every project.",
+      title: "Urban Development & High-Rise Construction",
+      sub: "We shape modern cityscapes by developing commercial hubs, residential complexes, and public spaces with a focus on sustainability and smart city integration. Our urban projects include:",
+      p: [
+        "High-Rise Buildings – Residential and commercial skyscrapers designed for functionality and aesthetics.",
+        "Commercial Complexes – Business centers, retail spaces, and industrial parks.",
+        "Public Infrastructure – Parks, educational institutions, and healthcare facilities."
+      ],
+      ilus: [ilus4, ilus5, ilus6]
     },
     {
-      title: "Smart Infrastructure & IoT Solutions",
-      sub: "KPNG’s Construction & Civil Engineering division specializes in designing and developing large-scale infrastructure projects that support urban growth and industrial expansion. The company has extensive expertise in road and highway construction, high-rise buildings, industrial complexes, and urban development projects. With a strong focus on durability, functionality, and sustainability, KPNG integrates advanced engineering techniques and eco-friendly practices into every project.",
+      title: "Smart Cities & Digital Infrastructure",
+      sub: "We integrate technology-driven solutions to develop intelligent, connected, and automated urban environments. Our smart infrastructure solutions include:",
+      p: [
+        "IoT-Enabled Infrastructure – Real-time monitoring of utilities, traffic, and security systems.",
+        "Smart Grids & Energy Management – Optimized power distribution and renewable energy integration.",
+        "Automated Traffic & Transportation Systems – AI-based traffic control and smart parking solutions."
+      ],
+      ilus: [ilus7, ilus8, ilus9]
     },
+    {
+      title: "Energy & Power Infrastructure",
+      sub: "As a leader in power infrastructure, KPNG ensures reliable energy supply by developing power plants, distribution networks, and renewable energy solutions. Our services include:",
+      p: [
+        "Power Plant Construction – Thermal, hydro, and renewable energy plants.",
+        "Energy Storage & Distribution – Smart grids, transmission lines, and substations.",
+        "Renewable Energy Solutions – Solar farms, wind energy projects, and sustainable power generation."
+      ],
+      ilus: [ilus10, ilus11, ilus12]
+    },
+    {
+      title: "Water & Environmental Infrastructure",
+      sub: "We support sustainable resource management by developing water treatment plants, drainage systems, and environmental conservation projects. Our key services include:",
+      p: [
+        "Water Treatment & Supply Systems – Ensuring clean and safe water for urban and industrial use.",
+        "Sustainable Drainage & Flood Control – Advanced drainage systems to prevent waterlogging and manage urban water flow.",
+        "Eco-Friendly Infrastructure Solutions – Green building materials and energy-efficient designs."
+      ],
+      ilus: [ilus13, ilus14, ilus15]
+    }
   ],
+  overview: "At Knagz Power and Network-Infrastructure Group (KPNG), we are committed to shaping the future of global infrastructure through innovation, sustainability, and engineering excellence. With a strong presence in over 20 countries and a team of 5,000+ professionals, we specialize in delivering large-scale infrastructure solutions that drive economic growth and improve quality of life. Our expertise spans across diverse sectors, including transportation, urban development, and smart infrastructure, ensuring that every project is designed for long-term resilience and efficiency. From building roads, highways, and bridges that enhance connectivity to constructing high-rise buildings, commercial hubs, and modern urban spaces, KPNG is at the forefront of infrastructural transformation. We integrate state-of-the-art technology into our projects, incorporating IoT-enabled infrastructure, smart city solutions, and automation to create intelligent, interconnected environments. Our commitment to sustainable construction practices ensures eco friendly developments that align with global standards and environmental responsibility. At KPNG, we don't just build infrastructure—we create foundations for progress, delivering projects that empower communities, strengthen economies, and redefine the future of urban living.",
+  expertise: "At KPNG, we specialize in delivering world-class infrastructure solutions that enhance connectivity, drive economic growth, and create sustainable urban environments. Our expertise spans multiple sectors, integrating cutting-edge technology, innovative engineering, and eco-friendly practices to ensure long-term efficiency and resilience.",
   contentImg: image2,
-  title: "Why us in Infrastructure ?",
-  spans: [
-    `<b>Proven Excellence:</b> With over a decade of success, KPNG has delivered high-quality infrastructure and energy projects across 20+ countries. From metro systems to smart cities, the company ensures innovation, sustainability, and efficiency through cutting-edge technology and strategic partnerships.`,
-    `<b>Innovative Approach:</b> KPNG leverages AI, IoT, and automation to enhance infrastructure and energy solutions. By integrating smart cities, 5G, and renewable energy, it ensures optimized operations, reduced costs, and future-ready developments.`,
-    `<b>Sustainable Solutions:</b> KPNG prioritizes eco-friendly, energy-efficient infrastructure, incorporating renewable energy, green materials, and smart grids. Its projects, like Dubai Expo 2020’s carbon-neutral infrastructure, promote long-term environmental benefits.`,
-    `<b>Global Reach:</b> Operating in 20+ countries, KPNG has contributed to major projects like Riyadh Metro, London Crossrail, and Lumina Smart City. The company adapts to local markets while maintaining international quality standards.`,
+  subheader: ["Shaping", "the Future", "of Infrastructure"],
+  subp: "At KPNG, our expertise goes beyond construction—we design resilient, future-ready infrastructure that fosters economic development, sustainability, and technological advancement. Through our commitment to excellence, innovation, and efficiency, we continue to transform cities and industries worldwide.",
+  faq: [
+    {
+      id: 1,
+      question: "Global Reach, Local Expertise",
+      answer:
+        "Operations in 20+ countries, customized regional solutions.",
+    },
+    {
+      id: 2,
+      question: "5000+ Professionals & Expert Engineers",
+      answer:
+        "A highly skilled workforce delivering world-class infrastructure.",
+    },
+    {
+      id: 3,
+      question: "Proven Track Record",
+      answer:
+        "Decades of experience in complex infrastructure development.",
+    },
+    {
+      id: 4,
+      question: "Commitment to Innovation & Sustainability",
+      answer:
+        "Cutting-edge technology integration and eco-friendly designs.",
+    }
   ],
+  cta1: "Building the Future, Connecting the World – KPNG’s expertise in infrastructure development ensures smart, sustainable, and high-performance solutions that drive economic growth and innovation.",
+  cta2: "Looking for a trusted infrastructure partner? Let’s build the future together. Contact KPNG today to discuss your next project.",
 };
 
 export const energyData = {
@@ -65,26 +189,75 @@ export const energyData = {
   },
   solutions: [
     {
+      title: "Power Generation & Plant Construction",
+      sub: "We specialize in the design, construction, and maintenance of large-scale power plants to meet the increasing energy demands of modern economies. Our capabilities include:",
+      p: [
+        "Thermal Power Plants – High-efficiency coal, gas, and nuclear power facilities.",
+        "Hydroelectric Power Plants – Sustainable energy generation through dams and water turbines.",
+        "Renewable Energy Power Plants – Development of solar, wind, and biomass power facilities."
+      ],
+      ilus: [ilus16, ilus17, ilus18]
+    },
+    {
+      title: "Energy Storage & Distribution Networks",
+      sub: "Ensuring seamless energy transmission and distribution, we implement cutting-edge solutions for optimized power management:",
+      p: [
+        "Smart Grid Integration – Intelligent power distribution systems for efficiency and reliability.",
+        "High-Voltage Transmission Lines – Strengthening national and regional energy networks.",
+        "Energy Storage Solutions – Advanced battery storage, pumped hydro, and grid-scale storage facilities."
+      ],
+      ilus: [ilus19, ilus20, ilus21]
+    },
+    {
       title: "Renewable Energy Solutions",
-      sub: "KPNG Energy Solutions specializes in the development and implementation of renewable energy projects, including solar, wind, and hydroelectric power systems. The company provides end-to-end solutions for clean energy generation, storage, and distribution, ensuring sustainability and efficiency for businesses, industries, and communities.",
+      sub: "Sustainability is at the core of our energy projects, integrating eco-friendly power solutions for a greener future:",
+      p: [
+        "Solar Energy Farms – Utility-scale photovoltaic (PV) installations for clean power generation.",
+        "Wind Energy Projects – Offshore and onshore wind farms with advanced turbine technology.",
+        "Waste-to-Energy Solutions – Converting industrial and municipal waste into renewable power."
+      ],
+      ilus: [ilus22, ilus23, ilus24]
     },
     {
-      title: "Power Generation & Grid Management",
-      sub: "KPNG Energy Solutions offers advanced power generation and grid management services, optimizing electricity distribution for maximum reliability and efficiency. The company specializes in smart grid technologies, backup power systems, and large-scale energy infrastructure, ensuring uninterrupted power supply for urban and industrial applications.",
-    },
-    {
-      title: "Energy Efficiency & Sustainability Consulting",
-      sub: "KPNG Energy Solutions provides expert consulting services to enhance energy efficiency and sustainability for businesses and municipalities. The company helps clients optimize energy consumption, integrate eco-friendly solutions, and reduce carbon footprints through cutting-edge technologies and strategic planning.",
-    },
+      title: "Energy Efficiency & Sustainability",
+      sub: "We develop energy-efficient systems that optimize power consumption while minimizing environmental impact:",
+      p: [
+        "Industrial Energy Audits & Optimization – Enhancing efficiency in factories and commercial buildings.",
+        "Carbon Capture & Emission Reduction – Innovative technologies to lower carbon footprints.",
+        "Green Building Energy Solutions – Sustainable power systems for eco-friendly urban development."
+      ],
+      ilus: [ilus25, ilus26, ilus27]
+    }
   ],
+  overview: "At Knagz Power and Network-Infrastructure Group (KPNG), we are driving the future of global energy solutions through innovation, sustainability, and engineering excellence. With operations in over 20 countries and a team of 5,000+ energy specialists, we deliver cutting-edge power generation, storage, and distribution solutions that fuel economic growth and enhance energy security. Our expertise spans across thermal, hydroelectric, and renewable energy projects, ensuring efficient, reliable, and eco-friendly power for industries, cities, and communities. From high-efficiency coal and gas plants to large-scale solar and wind farms, we integrate state-of-the-art technology to maximize energy output while minimizing environmental impact. Our smart grid systems and advanced energy storage solutions enhance grid stability, enabling seamless power transmission and optimized energy management. At KPNG, sustainability is at the core of our mission. We lead the transition to cleaner energy through carbon capture innovations, waste-to-energy solutions, and green building integrations, ensuring long-term environmental responsibility. By leveraging automation, IoT-enabled energy networks, and intelligent power distribution systems, we create resilient, future-ready energy infrastructures that power progress, drive economic expansion, and pave the way for a sustainable tomorrow.",
+  expertise: "At KPNG, we are dedicated to delivering robust and sustainable energy solutions that power industries, communities, and economies. With a strong focus on innovation, efficiency, and environmental responsibility, we develop high-performance power infrastructure that ensures reliable energy supply and drives global progress.",
   contentImg: image4,
-  title: "Why Choose Us for Energy Solutions?",
-  spans: [
-    "<b>Proven Expertise:</b> With a strong track record in renewable energy and power infrastructure, KPNG Energy Solutions has successfully deployed sustainable energy projects across 20+ countries. From solar farms to smart grids, the company delivers innovative and reliable solutions tailored to modern energy needs.",
-    "<b>Cutting-Edge Technology:</b> KPNG Energy Solutions integrates AI, IoT, and automation into energy management, ensuring efficient power distribution, reduced operational costs, and optimized performance. Its smart grid technologies and energy storage solutions pave the way for the future of clean energy.",
-    "<b>Commitment to Sustainability:</b> KPNG Energy Solutions prioritizes eco-friendly practices, focusing on carbon-neutral energy generation, green building integrations, and energy-efficient systems. Projects like the Dubai Solar Park showcase its dedication to reducing environmental impact while maximizing efficiency.",
-    "<b>Global Impact:</b> Operating in 20+ countries, KPNG Energy Solutions has played a vital role in major energy projects such as the European Smart Grid Initiative, African Renewable Energy Expansion, and Asia-Pacific Sustainable Power Networks. The company adapts to regional energy demands while maintaining world-class standards.",
+  subheader: ["Powering", "Progress,", "Enabling Growth"],
+  subp: "KPNG is committed to shaping the future of energy with innovative, sustainable, and high-performance solutions. Whether you're a government body, private developer, or industrial stakeholder, we are ready to collaborate on your next energy project.",
+  faq: [
+    {
+      id: 1,
+      question: "Proven Expertise",
+      answer: "Decades of experience in designing and executing large-scale energy projects."
+    },
+    {
+      id: 2,
+      question: "Global Reach & Local Insight",
+      answer: "Operations in 20+ countries with customized solutions for regional needs."
+    },
+    {
+      id: 3,
+      question: "Innovation-Driven Approach",
+      answer: "Integration of AI, IoT, and smart technologies for modern energy infrastructure."
+    },
+    {
+      id: 4,
+      question: "Commitment to Sustainability",
+      answer: "Focused on renewable energy, eco-friendly designs, and efficient power solutions."
+    }
   ],
+  cta1: "Powering a Sustainable Future – KPNG’s innovative energy solutions deliver reliable, eco-friendly, and high-efficiency power systems that drive progress and resilience.",
+  cta2: "Ready to transform your energy infrastructure? Partner with KPNG for cutting-edge, sustainable power solutions. Contact us today to get started."
 };
 
 export const manufacturingData = {
@@ -104,26 +277,75 @@ export const manufacturingData = {
   },
   solutions: [
     {
-      title: "Advanced Industrial Manufacturing",
-      sub: "KPNG Manufacturing specializes in cutting-edge industrial production solutions, leveraging automation, AI, and precision engineering. The company delivers high-quality manufacturing processes for automotive, aerospace, electronics, and heavy industries, ensuring efficiency, scalability, and innovation.",
+      "title": "Industrial Plant Design & Construction",
+      "sub": "We specialize in designing, constructing, and optimizing large-scale manufacturing facilities that meet the evolving needs of modern industries. Our capabilities include:",
+      "p": [
+        "Automotive & Aerospace Manufacturing – High-tech assembly plants with precision engineering.",
+        "Steel & Metal Processing Plants – Advanced facilities for smelting, rolling, and forging metals.",
+        "Textile & Consumer Goods Factories – Large-scale production units for garments, electronics, and household products."
+      ],
+      "ilus": [ilus28, ilus29, ilus30]
     },
     {
-      title: "Smart Factory & Industry 4.0 Solutions",
-      sub: "KPNG integrates Industry 4.0 technologies to create intelligent, data-driven manufacturing environments. Through IoT-enabled machinery, real-time analytics, and robotics, the company enhances productivity, reduces costs, and ensures seamless operations in modern production facilities.",
+      "title": "Smart Manufacturing & Automation",
+      "sub": "Embracing Industry 4.0, we implement intelligent systems that enhance productivity, efficiency, and quality control through:",
+      "p": [
+        "AI & IoT-Enabled Manufacturing – Real-time monitoring, predictive maintenance, and automation.",
+        "Robotics & Advanced Machinery – Integration of robotic arms, CNC machines, and automated assembly lines.",
+        "Digital Twin Technology – Simulating factory operations for process optimization and risk mitigation."
+      ],
+      "ilus": [ilus31, ilus32, ilus33]
     },
     {
-      title: "Sustainable Manufacturing & Eco-Friendly Materials",
-      sub: "KPNG prioritizes sustainability in manufacturing by adopting energy-efficient processes, recyclable materials, and green production techniques. With a strong commitment to reducing carbon footprints, the company ensures compliance with global environmental standards while delivering high-performance products.",
+      "title": "Supply Chain & Logistics Infrastructure",
+      "sub": "Ensuring seamless production and distribution, we develop world-class supply chain solutions, including:",
+      "p": [
+        "Warehousing & Distribution Centers – Smart storage facilities with automated inventory management.",
+        "Industrial Parks & Special Economic Zones (SEZs) – Integrated hubs for manufacturing and trade.",
+        "Cold Storage & Temperature-Controlled Facilities – Supporting food, pharmaceutical, and biotech industries."
+      ],
+      "ilus": [ilus34, ilus35, ilus36]
     },
+    {
+      "title": "Sustainable & Green Manufacturing",
+      "sub": "We prioritize eco-friendly manufacturing solutions that reduce environmental impact and promote sustainability:",
+      "p": [
+        "Energy-Efficient Production Lines – Implementing low-carbon manufacturing processes.",
+        "Waste Management & Recycling Solutions – Turning industrial waste into reusable resources.",
+        "Water & Air Quality Management – Advanced filtration and emission control technologies."
+      ],
+      "ilus": [ilus37, ilus38, ilus39]
+    }
   ],
+  overview: "At Knagz Power and Network-Infrastructure Group (KPNG), we are revolutionizing global manufacturing through innovation, sustainability, and engineering excellence. With operations in 20+ countries and a team of 5,000+ experts, we deliver advanced automation, precision engineering, and smart factory solutions that enhance efficiency, productivity, and environmental responsibility. From high-performance industrial machinery to AI-driven robotics and IoT-enabled production lines, we integrate cutting-edge technology to streamline operations, optimize workflows, and reduce costs. Our intelligent supply chain solutions and real-time analytics empower manufacturers with data-driven insights for seamless decision-making. Sustainability is at the core of our mission, driving energy-efficient systems, waste reduction technologies, and circular economy initiatives that lower environmental impact while maintaining high-performance standards. By leveraging automation, digital transformation, and next-generation manufacturing techniques, KPNG creates future-ready industrial infrastructures that drive economic growth, enhance competitiveness, and pave the way for a smarter, more sustainable future.",
+  expertise: "At KPNG, we are dedicated to revolutionizing the manufacturing sector with state-of-the-art infrastructure, cutting-edge technology, and industry-leading expertise. Our goal is to enhance production efficiency, improve supply chain resilience, and drive industrial innovation to support businesses and economies worldwide.",
   contentImg: image6,
-  title: "Why Choose Us for Manufacturing?",
-  spans: [
-    "<b>Proven Excellence:</b> With years of expertise in industrial production, KPNG Manufacturing has delivered high-quality manufacturing solutions across 20+ countries. From automotive components to aerospace engineering, the company ensures precision, scalability, and efficiency through advanced technology and strategic partnerships.",
-    "<b>Innovative Approach:</b> KPNG Manufacturing leverages AI, IoT, and automation to revolutionize production processes. By integrating smart factories, robotics, and real-time analytics, it enhances productivity, reduces costs, and ensures future-ready manufacturing solutions.",
-    "<b>Sustainable Solutions:</b> KPNG prioritizes eco-friendly manufacturing, utilizing energy-efficient production methods, recyclable materials, and green supply chains. Its commitment to sustainability supports carbon-neutral production while maintaining high-performance standards.",
-    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Manufacturing has contributed to major projects in automotive, aerospace, and electronics industries. The company adapts to regional market needs while upholding world-class manufacturing excellence.",
+  subheader: ["Engineering", "Excellence,", "Driving Industrial Growth"],
+  subp: "KPNG is your trusted partner in building world-class manufacturing infrastructure. Whether you're expanding an existing facility or establishing a new industrial hub, we are ready to deliver customized solutions that meet your business goals.",
+  faq: [
+    {
+      id: 1,
+      question: "Proven Expertise",
+      answer: "Delivering large-scale manufacturing projects with industry expertise."
+    },
+    {
+      id: 2,
+      question: "Global Reach & Local Insight",
+      answer: "Operations across 20+ countries, tailored to regional needs."
+    },
+    {
+      id: 3,
+      question: "Innovation-Driven Approach",
+      answer: "Integration of smart technologies for high-performance manufacturing"
+    },
+    {
+      id: 4,
+      question: "Commitment to Sustainability",
+      answer: "Developing green, energy-efficient, and eco-conscious manufacturing facilities."
+    }
   ],
+  cta1: "Revolutionizing Manufacturing – KPNG’s advanced solutions enhance efficiency, sustainability, and precision, driving innovation and growth in modern manufacturing.",
+  cta2: "Elevate your production capabilities with KPNG’s cutting-edge manufacturing solutions. Let’s build a smarter, more sustainable future—contact us today!"
 };
 
 export const oilAndGasData = {
@@ -145,24 +367,73 @@ export const oilAndGasData = {
     {
       title: "Upstream Exploration & Production",
       sub: "KPNG Oil & Gas specializes in upstream operations, including oil and gas exploration, drilling, and production. The company utilizes advanced geological surveying, seismic technology, and enhanced recovery methods to maximize extraction efficiency and resource optimization.",
+      p: [
+        "Advanced seismic imaging and geophysical analysis for precise drilling.",
+        "Enhanced Oil Recovery (EOR) techniques to optimize well performance.",
+        "State-of-the-art offshore and onshore drilling technologies.",
+      ],
+      ilus: [ilus40, ilus41, ilus42],
     },
     {
       title: "Midstream Transportation & Storage",
       sub: "KPNG provides midstream solutions that ensure safe and efficient transportation of oil and gas through pipelines, LNG terminals, and storage facilities. The company implements cutting-edge monitoring systems, leak detection technologies, and asset management strategies to enhance operational reliability.",
+      p: [
+        "Pipeline integrity management with IoT-based monitoring.",
+        "LNG storage and regasification solutions for global energy supply chains.",
+        "Advanced leak detection and safety compliance technologies.",
+      ],
+      ilus: [ilus43, ilus44, ilus45],
     },
     {
       title: "Downstream Refining & Petrochemicals",
       sub: "KPNG Oil & Gas delivers high-quality refining and petrochemical solutions, transforming crude oil and natural gas into valuable products such as fuels, lubricants, and industrial chemicals. The company focuses on energy efficiency, sustainability, and compliance with international environmental standards.",
+      p: [
+        "Next-generation refining processes for cleaner fuel production.",
+        "Petrochemical manufacturing for a diverse range of industrial applications.",
+        "Integration of AI-driven process optimization and automation.",
+      ],
+      ilus: [ilus46, ilus47, ilus48],
     },
+    {
+      title: "Sustainable Energy Solutions",
+      sub: "KPNG is committed to reducing environmental impact through innovative and sustainable energy solutions.",
+      p: [
+        "Carbon capture and storage (CCS) technologies to minimize emissions.",
+        "Integration of renewable energy sources into traditional oil and gas operations.",
+        "Water and waste management strategies for environmentally responsible energy production.",
+      ],
+      ilus: [ilus49, ilus50, ilus51],
+    }
   ],
+  overview: "KPNG Oil & Gas is a global leader in energy solutions, driving efficiency, sustainability, and technological innovation in the oil and gas sector. With operations in over 20 countries, we pioneer advanced drilling technologies, midstream logistics, and downstream refining solutions to meet the world's growing energy needs. By integrating AI, automation, and environmental responsibility into our processes, we ensure safe, cost-effective, and sustainable energy production for the future.",
+  expertise: "At KPNG, we are redefining the future of energy with cutting-edge oil and gas solutions. Our expertise spans the entire value chain, from exploration and extraction to refining and distribution, ensuring optimized performance and environmental responsibility.",
   contentImg: image8,
-  title: "Why Choose Us for Oil & Gas?",
-  spans: [
-    "<b>Proven Excellence:</b> With decades of experience, KPNG Oil & Gas has successfully executed exploration, production, and refining projects across 20+ countries. From offshore drilling to petrochemical plants, the company ensures efficiency, innovation, and sustainability in every operation.",
-    "<b>Innovative Approach:</b> KPNG leverages cutting-edge technologies, including AI-driven reservoir analysis, automated drilling systems, and IoT-based pipeline monitoring. These innovations enhance safety, optimize production, and reduce operational costs across the oil and gas value chain.",
-    "<b>Sustainable Solutions:</b> KPNG is committed to reducing environmental impact by integrating carbon capture technologies, energy-efficient refining processes, and eco-friendly drilling techniques. The company prioritizes sustainability while maintaining high-performance energy production.",
-    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Oil & Gas has played a key role in major energy projects, including offshore platforms in the Middle East, LNG terminals in Asia, and refining hubs in Europe. The company adapts to regional market needs while adhering to global industry standards.",
+  subheader: ["Innovation", "Efficiency,", "Sustainable Energy"],
+  subp: "KPNG is your trusted partner in pioneering oil and gas solutions that drive operational excellence, environmental responsibility, and energy security worldwide.",
+  faq: [
+    {
+      id: 1,
+      question: "Proven Industry Expertise",
+      answer: "Decades of experience in oil and gas, delivering high-performance solutions."
+    },
+    {
+      id: 2,
+      question: "Global Reach & Strategic Insights",
+      answer: "Operations across 20+ countries with a deep understanding of local and global markets."
+    },
+    {
+      id: 3,
+      question: "Technology-Driven Solutions",
+      answer: "Utilizing AI, automation, and IoT to enhance energy efficiency and safety."
+    },
+    {
+      id: 4,
+      question: "Commitment to Sustainability",
+      answer: "Integrating green technologies to minimize environmental impact."
+    }
   ],
+  cta1: "Transforming the future of energy – KPNG’s advanced solutions optimize oil and gas production, ensuring sustainability, efficiency, and innovation.",
+  cta2: "Partner with KPNG for cutting-edge energy solutions. Let’s drive the future of oil and gas together—contact us today!"
 };
 
 export const maritimeData = {
@@ -184,22 +455,62 @@ export const maritimeData = {
     {
       title: "Maritime Infrastructure & Port Development",
       sub: "KPNG Maritime specializes in designing, constructing, and modernizing ports, shipyards, and marine terminals. The company delivers cutting-edge infrastructure solutions that enhance global trade, logistics, and naval operations, ensuring efficiency, security, and sustainability in maritime transport.",
+      p: [
+        "Smart port technology integration for enhanced cargo management.",
+        "Automated container handling systems and logistics hubs.",
+        "Green port initiatives focusing on energy efficiency and sustainability."
+      ],
+      ilus: [ilus52, ilus53, ilus54],
     },
     {
       title: "Shipbuilding & Marine Engineering",
       sub: "KPNG Maritime offers world-class shipbuilding and marine engineering services, developing advanced vessels for commercial, industrial, and defense applications. The company integrates automation, AI, and eco-friendly materials to optimize vessel performance, fuel efficiency, and operational safety.",
+      p: [
+        "AI-driven ship design for fuel-efficient and sustainable vessels.",
+        "Advanced shipyard automation, including robotic welding and assembly.",
+        "Next-generation propulsion systems utilizing alternative fuels."
+      ],
+      ilus: [ilus55, ilus56, ilus57],
     },
     {
       title: "Offshore & Marine Solutions",
       sub: "KPNG Maritime provides comprehensive offshore solutions, including oil and gas platforms, wind energy installations, and deep-sea exploration support. With expertise in marine logistics and subsea engineering, the company ensures safe, sustainable, and innovative offshore operations.",
-    },
+      p: [
+        "Design and deployment of offshore wind farms and energy platforms.",
+        "Deep-sea exploration vessels with AI-based underwater mapping.",
+        "Integrated offshore logistics for oil, gas, and renewable energy sectors."
+      ],
+      ilus: [ilus58, ilus59, ilus60],
+    }
   ],
+  overview: "KPNG Maritime is a global leader in maritime solutions, driving technological innovation, efficiency, and sustainability in the industry. With a presence in over 20 countries, we specialize in smart ports, next-generation shipbuilding, and offshore energy solutions that optimize marine operations and reduce environmental impact.",
+  expertise: "At KPNG, we are redefining maritime excellence by integrating advanced technology, automation, and green solutions to enhance efficiency and safety across global marine operations.",
   contentImg: image10,
-  title: "Why Choose Us for Maritime?",
-  spans: [
-    "<b>Proven Excellence:</b> With a strong track record in maritime infrastructure, KPNG Maritime has successfully delivered port development, shipbuilding, and offshore solutions across 20+ countries. From smart ports to advanced vessels, the company ensures efficiency, innovation, and sustainability in the maritime sector.",
-    "<b>Innovative Approach:</b> KPNG Maritime leverages AI, automation, and IoT to optimize shipbuilding, port operations, and offshore energy projects. By integrating digital twin technology, autonomous vessels, and smart logistics, the company enhances safety, efficiency, and cost-effectiveness.",
-    "<b>Sustainable Solutions:</b> KPNG Maritime prioritizes eco-friendly practices by developing energy-efficient ships, green ports, and offshore renewable energy installations. The company is committed to reducing carbon emissions through sustainable shipbuilding and clean marine fuels.",
-    "<b>Global Reach:</b> Operating in 20+ countries, KPNG Maritime has contributed to major projects such as next-generation shipbuilding in Europe, offshore wind farms in Asia, and port modernization in the Middle East. The company adapts to regional market demands while maintaining international maritime standards."
-]
+  subheader: ["Innovation", "Efficiency,", "Sustainable Maritime Solutions"],
+  subp: "KPNG is your trusted partner in revolutionizing maritime infrastructure, shipbuilding, and offshore energy projects with cutting-edge technology and sustainable practices.",
+  faq: [
+    {
+      id: 1,
+      question: "Proven Industry Expertise",
+      answer: "Decades of experience in maritime infrastructure, shipbuilding, and offshore solutions."
+    },
+    {
+      id: 2,
+      question: "Global Reach & Strategic Insights",
+      answer: "Operations across 20+ countries, adapting to diverse regional needs while maintaining global standards."
+    },
+    {
+      id: 3,
+      question: "Technology-Driven Solutions",
+      answer: "Utilizing AI, automation, and IoT for enhanced maritime efficiency and safety."
+    },
+    {
+      id: 4,
+      question: "Commitment to Sustainability",
+      answer: "Developing green ports, energy-efficient vessels, and offshore renewable energy solutions."
+    }
+  ],
+  cta1: "Transforming the future of maritime – KPNG’s advanced solutions optimize port operations, shipbuilding, and offshore energy for a smarter, more sustainable industry.",
+  cta2: "Partner with KPNG for cutting-edge maritime solutions. Let’s navigate the future together—contact us today!"
 };
+
