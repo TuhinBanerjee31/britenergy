@@ -51,28 +51,31 @@ import ilus37 from "../assets/ourWorkImages/image37.png"
 import ilus38 from "../assets/ourWorkImages/image38.png"
 import ilus39 from "../assets/ourWorkImages/image39.png"
 
-import ilus40 from "../assets/ourWorkImages/image30.png"
-import ilus41 from "../assets/ourWorkImages/image31.png"
-import ilus42 from "../assets/ourWorkImages/image32.png"
-import ilus43 from "../assets/ourWorkImages/image33.png"
-import ilus44 from "../assets/ourWorkImages/image34.png"
-import ilus45 from "../assets/ourWorkImages/image35.png"
-import ilus46 from "../assets/ourWorkImages/image36.png"
-import ilus47 from "../assets/ourWorkImages/image37.png"
-import ilus48 from "../assets/ourWorkImages/image38.png"
-import ilus49 from "../assets/ourWorkImages/image39.png"
-import ilus50 from "../assets/ourWorkImages/image10.png"
-import ilus51 from "../assets/ourWorkImages/image11.png"
+import ilus40 from "../assets/ourWorkImages/image40.png"
+import ilus41 from "../assets/ourWorkImages/image41.png"
+import ilus42 from "../assets/ourWorkImages/image42.png"
+import ilus43 from "../assets/ourWorkImages/image43.png"
+import ilus44 from "../assets/ourWorkImages/image44.png"
+import ilus45 from "../assets/ourWorkImages/image45.png"
+import ilus46 from "../assets/ourWorkImages/image46.png"
+import ilus47 from "../assets/ourWorkImages/image47.png"
+import ilus48 from "../assets/ourWorkImages/image48.png"
+import ilus49 from "../assets/ourWorkImages/image49.png"
+import ilus50 from "../assets/ourWorkImages/image50.png"
+import ilus51 from "../assets/ourWorkImages/image51.png"
 
-import ilus52 from "../assets/ourWorkImages/image12.png"
-import ilus53 from "../assets/ourWorkImages/image13.png"
-import ilus54 from "../assets/ourWorkImages/image14.png"
-import ilus55 from "../assets/ourWorkImages/image15.png"
-import ilus56 from "../assets/ourWorkImages/image10.png"
-import ilus57 from "../assets/ourWorkImages/image17.png"
-import ilus58 from "../assets/ourWorkImages/image18.png"
-import ilus59 from "../assets/ourWorkImages/image19.png"
-import ilus60 from "../assets/ourWorkImages/image20.png"
+import ilus52 from "../assets/ourWorkImages/image52.png"
+import ilus53 from "../assets/ourWorkImages/image53.png"
+import ilus54 from "../assets/ourWorkImages/image54.png"
+import ilus55 from "../assets/ourWorkImages/image55.png"
+import ilus56 from "../assets/ourWorkImages/image56.png"
+import ilus57 from "../assets/ourWorkImages/image57.png"
+import ilus58 from "../assets/ourWorkImages/image58.png"
+import ilus59 from "../assets/ourWorkImages/image59.png"
+import ilus60 from "../assets/ourWorkImages/image60.png"
+import ilus61 from "../assets/ourWorkImages/image61.png"
+import ilus62 from "../assets/ourWorkImages/image62.png"
+import ilus63 from "../assets/ourWorkImages/image63.png"
 
 export const infraData = {
   bgImg: image1,
@@ -366,46 +369,46 @@ export const oilAndGasData = {
   solutions: [
     {
       title: "Upstream Exploration & Production",
-      sub: "KPNG Oil & Gas specializes in upstream operations, including oil and gas exploration, drilling, and production. The company utilizes advanced geological surveying, seismic technology, and enhanced recovery methods to maximize extraction efficiency and resource optimization.",
+      sub: "KPNG Oil & Gas specializes in designing, developing, and optimizing upstream infrastructure for efficient oil and gas extraction. The company leverages advanced geological expertise, reservoir management, and cutting-edge recovery methods to enhance productivity.",
       p: [
-        "Advanced seismic imaging and geophysical analysis for precise drilling.",
-        "Enhanced Oil Recovery (EOR) techniques to optimize well performance.",
-        "State-of-the-art offshore and onshore drilling technologies.",
+        "Offshore & Onshore Drilling Platforms – Advanced rigs and facilities for deepwater and land-based drilling.",
+        "Reservoir Engineering & Management – Optimizing extraction efficiency through geophysical and geological expertise.",
+        "Enhanced Oil Recovery (EOR) Techniques – Implementing cutting-edge recovery methods to maximize yields."
       ],
-      ilus: [ilus40, ilus41, ilus42],
+      ilus: [ilus40, ilus41, ilus42]
     },
     {
       title: "Midstream Transportation & Storage",
-      sub: "KPNG provides midstream solutions that ensure safe and efficient transportation of oil and gas through pipelines, LNG terminals, and storage facilities. The company implements cutting-edge monitoring systems, leak detection technologies, and asset management strategies to enhance operational reliability.",
+      sub: "KPNG Oil & Gas ensures seamless and secure transportation of crude oil and natural gas through state-of-the-art pipeline infrastructure, gas processing facilities, and large-scale storage solutions.",
       p: [
-        "Pipeline integrity management with IoT-based monitoring.",
-        "LNG storage and regasification solutions for global energy supply chains.",
-        "Advanced leak detection and safety compliance technologies.",
+        "Pipeline Infrastructure & Management – Safe, high-capacity pipelines with advanced monitoring systems.",
+        "LNG & Gas Processing Facilities – State-of-the-art liquefaction, regasification, and fractionation plants.",
+        "Oil Terminals & Storage Tanks – Large-scale storage facilities with automated safety and control systems."
       ],
-      ilus: [ilus43, ilus44, ilus45],
+      ilus: [ilus43, ilus44, ilus45]
     },
     {
       title: "Downstream Refining & Petrochemicals",
-      sub: "KPNG Oil & Gas delivers high-quality refining and petrochemical solutions, transforming crude oil and natural gas into valuable products such as fuels, lubricants, and industrial chemicals. The company focuses on energy efficiency, sustainability, and compliance with international environmental standards.",
+      sub: "KPNG Oil & Gas provides world-class refining and petrochemical solutions to meet the growing global demand for high-quality fuels, plastics, and chemicals.",
       p: [
-        "Next-generation refining processes for cleaner fuel production.",
-        "Petrochemical manufacturing for a diverse range of industrial applications.",
-        "Integration of AI-driven process optimization and automation.",
+        "Refineries & Processing Plants – High-tech refining infrastructure for crude oil conversion.",
+        "Petrochemical & Polymer Production – Advanced manufacturing of plastics, chemicals, and synthetic materials.",
+        "Fuel Distribution & Retail Networks – Comprehensive supply chain solutions for fuel transportation and retail."
       ],
-      ilus: [ilus46, ilus47, ilus48],
+      ilus: [ilus46, ilus47, ilus48]
     },
     {
-      title: "Sustainable Energy Solutions",
-      sub: "KPNG is committed to reducing environmental impact through innovative and sustainable energy solutions.",
+      title: "Sustainable & Green Energy Solutions",
+      sub: "KPNG Oil & Gas is leading the transition toward a more sustainable energy future by integrating carbon capture, renewable energy, and advanced waste management into its operations.",
       p: [
-        "Carbon capture and storage (CCS) technologies to minimize emissions.",
-        "Integration of renewable energy sources into traditional oil and gas operations.",
-        "Water and waste management strategies for environmentally responsible energy production.",
+        "Carbon Capture & Storage (CCS) – Cutting-edge technology to reduce carbon emissions from oil & gas operations.",
+        "Renewable Energy Integration – Blending oil & gas operations with solar, wind, and hydrogen energy.",
+        "Waste & Water Management – Advanced treatment and recycling solutions to minimize environmental impact."
       ],
-      ilus: [ilus49, ilus50, ilus51],
+      ilus: [ilus49, ilus50, ilus51]
     }
   ],
-  overview: "KPNG Oil & Gas is a global leader in energy solutions, driving efficiency, sustainability, and technological innovation in the oil and gas sector. With operations in over 20 countries, we pioneer advanced drilling technologies, midstream logistics, and downstream refining solutions to meet the world's growing energy needs. By integrating AI, automation, and environmental responsibility into our processes, we ensure safe, cost-effective, and sustainable energy production for the future.",
+  overview: "KPNG Oil & Gas is a globally recognized leader in energy solutions, committed to driving efficiency, sustainability, and technological innovation in the oil and gas industry. With a presence in over 20 countries, we leverage cutting-edge expertise to enhance every stage of the energy value chain, from exploration and production to refining and distribution. Our advanced drilling technologies enable us to extract hydrocarbons with greater precision, minimizing environmental impact while maximizing resource recovery. We continuously develop and implement midstream logistics solutions to optimize transportation, storage, and processing, ensuring seamless energy flow across global markets. Additionally, our downstream refining solutions focus on improving fuel quality, increasing operational efficiency, and reducing emissions, aligning with the industry's evolving sustainability standards. At KPNG Oil & Gas, we embrace artificial intelligence (AI), automation, and digitalization to enhance operational efficiency, safety, and predictive maintenance. By integrating machine learning algorithms, real-time data analytics, and Internet of Things (IoT) applications, we proactively monitor equipment health, optimize supply chains, and drive cost-effectiveness across all our operations. Our unwavering commitment to environmental responsibility ensures that sustainability is at the core of our operations. Through investments in carbon capture technologies, renewable energy integration, and emission reduction strategies, we actively contribute to a cleaner, more sustainable energy future.",
   expertise: "At KPNG, we are redefining the future of energy with cutting-edge oil and gas solutions. Our expertise spans the entire value chain, from exploration and extraction to refining and distribution, ensuring optimized performance and environmental responsibility.",
   contentImg: image8,
   subheader: ["Innovation", "Efficiency,", "Sustainable Energy"],
@@ -453,37 +456,47 @@ export const maritimeData = {
   },
   solutions: [
     {
-      title: "Maritime Infrastructure & Port Development",
-      sub: "KPNG Maritime specializes in designing, constructing, and modernizing ports, shipyards, and marine terminals. The company delivers cutting-edge infrastructure solutions that enhance global trade, logistics, and naval operations, ensuring efficiency, security, and sustainability in maritime transport.",
+      title: "Port Development & Marine Terminals",
+      sub: "We design and build world-class maritime hubs to facilitate efficient global trade. Our expertise includes the development of high-capacity ports, logistics hubs, and AI-driven smart port technologies.",
       p: [
-        "Smart port technology integration for enhanced cargo management.",
-        "Automated container handling systems and logistics hubs.",
-        "Green port initiatives focusing on energy efficiency and sustainability."
+        "Deep-Sea Ports & Terminals – Large-scale ports equipped for high-capacity cargo handling.",
+        "Container & Bulk Cargo Handling Facilities – State-of-the-art logistics hubs for seamless goods movement.",
+        "Smart Port Technology – AI-driven automation, digital twins, and IoT-based port management."
       ],
-      ilus: [ilus52, ilus53, ilus54],
+      ilus: [ilus52, ilus53, ilus54]
     },
     {
-      title: "Shipbuilding & Marine Engineering",
-      sub: "KPNG Maritime offers world-class shipbuilding and marine engineering services, developing advanced vessels for commercial, industrial, and defense applications. The company integrates automation, AI, and eco-friendly materials to optimize vessel performance, fuel efficiency, and operational safety.",
+      title: "Shipbuilding & Naval Engineering",
+      sub: "We provide cutting-edge shipbuilding solutions tailored for commercial, industrial, and defense sectors. Our expertise ranges from large cargo vessels to high-tech naval and offshore energy support ships.",
       p: [
-        "AI-driven ship design for fuel-efficient and sustainable vessels.",
-        "Advanced shipyard automation, including robotic welding and assembly.",
-        "Next-generation propulsion systems utilizing alternative fuels."
+        "Commercial & Cargo Ships – Design and construction of tankers, bulk carriers, and container ships.",
+        "Naval & Defense Vessels – Advanced warships, patrol boats, and submarines with high-tech capabilities.",
+        "Offshore Support & Energy Vessels – Specialized ships for oil rigs, wind farms, and energy transport."
       ],
-      ilus: [ilus55, ilus56, ilus57],
+      ilus: [ilus55, ilus56, ilus57]
     },
     {
-      title: "Offshore & Marine Solutions",
-      sub: "KPNG Maritime provides comprehensive offshore solutions, including oil and gas platforms, wind energy installations, and deep-sea exploration support. With expertise in marine logistics and subsea engineering, the company ensures safe, sustainable, and innovative offshore operations.",
+      title: "Maritime Logistics & Supply Chain Solutions",
+      sub: "Ensuring seamless global trade through integrated logistics and transport networks, we optimize freight shipping, cold chain solutions, and risk management strategies for the maritime industry.",
       p: [
-        "Design and deployment of offshore wind farms and energy platforms.",
-        "Deep-sea exploration vessels with AI-based underwater mapping.",
-        "Integrated offshore logistics for oil, gas, and renewable energy sectors."
+        "Freight & Cargo Shipping Networks – Efficient maritime transport solutions for international trade.",
+        "Cold Chain & Specialized Cargo Handling – Temperature-controlled logistics for pharmaceuticals, food, and perishables.",
+        "Marine Insurance & Risk Management – Advanced security protocols to safeguard global shipping."
       ],
-      ilus: [ilus58, ilus59, ilus60],
+      ilus: [ilus58, ilus59, ilus60]
+    },
+    {
+      title: "Sustainable & Green Maritime Innovations",
+      sub: "Leading the transformation towards an eco-friendly maritime industry, we focus on sustainable fuels, emissions control, and offshore renewable energy solutions.",
+      p: [
+        "LNG & Hydrogen-Powered Vessels – Sustainable fuel alternatives to reduce carbon emissions.",
+        "Ballast Water & Emissions Control – Advanced treatment technologies for environmental compliance.",
+        "Offshore Renewable Energy Solutions – Floating wind farms, tidal energy systems, and marine sustainability projects."
+      ],
+      ilus: [ilus61, ilus62, ilus63]
     }
   ],
-  overview: "KPNG Maritime is a global leader in maritime solutions, driving technological innovation, efficiency, and sustainability in the industry. With a presence in over 20 countries, we specialize in smart ports, next-generation shipbuilding, and offshore energy solutions that optimize marine operations and reduce environmental impact.",
+  overview: "KPNG Maritime is a globally recognized leader in maritime solutions, dedicated to advancing technological innovation, operational efficiency, and sustainability in the industry. With a presence in over 20 countries, we leverage cutting-edge expertise to transform marine operations, ensuring safer, smarter, and more sustainable maritime activities. Our smart port solutions integrate AI-driven automation, digital twins, and IoT-based port management systems, optimizing cargo handling, vessel traffic, and logistics efficiency. Through data analytics and predictive maintenance, we enable seamless trade operations while reducing downtime and costs. In next-generation shipbuilding, we design and construct commercial, industrial, and defense vessels using state-of-the-art materials and engineering techniques. Our portfolio includes advanced cargo ships, high-tech naval vessels, and specialized offshore support vessels built for resilience, fuel efficiency, and enhanced operational capabilities. KPNG Maritime is also at the forefront of offshore energy solutions, pioneering floating wind farms, tidal energy systems, and offshore oil & gas support vessels. We integrate LNG and hydrogen-powered propulsion technologies to reduce emissions and drive the transition toward a greener maritime industry. Committed to environmental responsibility, we develop and implement ballast water treatment systems, emissions control technologies, and sustainable marine fuel alternatives, ensuring compliance with global environmental regulations while minimizing ecological impact. With a forward-thinking approach and a team of industry experts, KPNG Maritime is redefining the future of the maritime industry—delivering innovative, efficient, and eco-friendly solutions that propel global trade and energy into a more sustainable future.",
   expertise: "At KPNG, we are redefining maritime excellence by integrating advanced technology, automation, and green solutions to enhance efficiency and safety across global marine operations.",
   contentImg: image10,
   subheader: ["Innovation", "Efficiency,", "Sustainable Maritime Solutions"],
