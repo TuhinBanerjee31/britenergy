@@ -79,7 +79,8 @@ const Contact = () => {
                   <strong>Partnership Related Enquires:</strong>{" "}
                   partner@kpng.org
                   <br />
-                  <strong>HR Related Enquires:</strong> hr.india@kpng.org
+                  <strong>HR Related Enquires:</strong> hr.india@kpng.org<br />
+                  <strong>Also Our Team:</strong> hrdesk@kpng.org <b>&</b> hrteam@kpng.org
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
@@ -274,7 +275,7 @@ const Contact = () => {
               <br />
               <strong>Call us:</strong> 224 189 1657
               <br />
-              <strong>Email us:</strong> careers@kpng.org
+              <strong>Email us:</strong> career@kpng.org
             </p>
           </div>
         </div>
