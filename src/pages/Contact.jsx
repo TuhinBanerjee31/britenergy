@@ -72,7 +72,7 @@ const Contact = () => {
                   <br />
                   Visakhapatnam, Andhra Pradesh, 530016, India
                   <br />
-                  <strong>Phone:</strong> +91 2241891660
+                  <strong>Phone:</strong> +91 2241892030
                   <br />
                   <strong>General Enquires:</strong> help@kpng.org
                   <br />
@@ -247,7 +247,7 @@ const Contact = () => {
             <p className="text-[#174e75]">
               We are always here to help you with your project needs:
               <br />
-              <strong>Call us:</strong> 224 189 1655
+              <strong>Call us:</strong> 224 189 2026
               <br />
               <strong>Email us:</strong> partnership@kpng.org
             </p>
@@ -260,7 +260,7 @@ const Contact = () => {
             <p className="text-[#174e75]">
               For general information about our services or partnerships:
               <br />
-              <strong>Call us:</strong> 224 189 1656
+              <strong>Call us:</strong> 224 189 2027
               <br />
               <strong>Email us:</strong> help@kpng.org
             </p>
@@ -273,7 +273,7 @@ const Contact = () => {
             <p className="text-[#174e75]">
               If you are one of our employees or have a career related enquire:
               <br />
-              <strong>Call us:</strong> 224 189 1657
+              <strong>Call us:</strong> 224 189 2028 || 224 189 2029
               <br />
               <strong>Email us:</strong> career@kpng.org
             </p>

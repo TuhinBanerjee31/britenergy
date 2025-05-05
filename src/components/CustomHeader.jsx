@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { useEffect } from "react";
+import SpecialDisplay from "./SpecialDisplay";
 
 const CustomHeader = (props) => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const CustomHeader = (props) => {
         backgroundRepeat: "no-repeat",
       }}
     >
+      <SpecialDisplay />
       <Navbar />
       <div className="max-w-screen-xl min-h-[30vh] md:min-h-[45vh] bg-gradient-to-r from-gray-950 flex items-center justify-center px-5">
         <h1 className="text-5xl md:text-7xl text-white font-extralight uppercase tracking-wider">

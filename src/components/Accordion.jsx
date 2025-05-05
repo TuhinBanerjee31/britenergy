@@ -22,9 +22,9 @@ const Accordion = () => {
     },
     {
       id: 3,
-      question: "What regions do you operate in?",
+      question: "Does KPNG charges for any career options?",
       answer:
-        "KPNG operates globally, with offices in Asia, Africa, Europe, North America, and South America. We also work with local partners to deliver tailored solutions in various countries.",
+        "KPNG never charges any money for job offer or career options.",
     },
     {
       id: 4,
@@ -121,6 +121,12 @@ const Accordion = () => {
       question: "Still Have Questions?",
       answer:
         "If you didn’t find the answer you were looking for, our team is here to help. Contact us directly or fill out the inquiry form on our website, and we’ll get back to you promptly.",
+    },
+    {
+      id: 20,
+      question: "What regions do you operate in?",
+      answer:
+        "KPNG operates globally, with offices in Asia, Africa, Europe, North America, and South America. We also work with local partners to deliver tailored solutions in various countries.",
     },
   ];
 
